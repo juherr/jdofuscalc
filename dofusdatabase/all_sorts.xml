@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sorts>
+	<sort>
+		<nom>Foudroiement</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>11</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>13</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>6</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>14</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>15</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>6</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>16</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>17</min>
+					<max>17</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>6</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>18</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>19</min>
+					<max>19</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>5</pa>
+			<cc>100</cc>
+			<ec>45</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>30</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>31</min>
+					<max>31</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Cawotte</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>0</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>3</min>
+					<max>6</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>0</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>3</min>
+					<max>6</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>6</pa>
+			<cc>0</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>4</min>
+					<max>7</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>6</pa>
+			<cc>0</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>4</min>
+					<max>7</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>0</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>8</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>0</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>8</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flamiche</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>2</pa>
+			<cc>60</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>1</min>
+					<max>1</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>2</min>
+					<max>2</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>2</pa>
+			<cc>60</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>1</min>
+					<max>2</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>3</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>2</pa>
+			<cc>60</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>1</min>
+					<max>3</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>4</min>
+					<max>4</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>2</pa>
+			<cc>60</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>5</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>2</pa>
+			<cc>60</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>1</min>
+					<max>5</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>6</min>
+					<max>6</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>2</pa>
+			<cc>60</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>1</min>
+					<max>7</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>8</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Marteau de Moon</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>8</pa>
+			<cc>0</cc>
+			<ec>10</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>3</min>
+					<max>32</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>8</pa>
+			<cc>0</cc>
+			<ec>10</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>3</min>
+					<max>42</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>8</pa>
+			<cc>0</cc>
+			<ec>10</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>3</min>
+					<max>52</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>8</pa>
+			<cc>0</cc>
+			<ec>10</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>3</min>
+					<max>62</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>8</pa>
+			<cc>0</cc>
+			<ec>10</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>3</min>
+					<max>72</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>8</pa>
+			<cc>0</cc>
+			<ec>20</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>3</min>
+					<max>82</max>
+				</degats>
+			</normal>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Boomerang perfide (jet terre)</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>20</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>30</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>40</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>7</pa>
+			<cc>100</cc>
+			<ec>60</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>7</pa>
+			<cc>100</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>11</min>
+					<max>70</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>71</min>
+					<max>80</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Boomerang perfide (jet feu)</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>20</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>30</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>40</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>7</pa>
+			<cc>100</cc>
+			<ec>60</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>7</pa>
+			<cc>100</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>11</min>
+					<max>70</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie feu">
+					<min>71</min>
+					<max>80</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Boomerang perfide (jet eau)</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>20</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>30</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>40</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>7</pa>
+			<cc>100</cc>
+			<ec>60</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>7</pa>
+			<cc>100</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>11</min>
+					<max>70</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>71</min>
+					<max>80</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Boomerang perfide (jet air)</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>20</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>30</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>40</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>8</pa>
+			<cc>100</cc>
+			<ec>50</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>7</pa>
+			<cc>100</cc>
+			<ec>60</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>11</min>
+					<max>60</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>61</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>7</pa>
+			<cc>100</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>11</min>
+					<max>70</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>71</min>
+					<max>80</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+</sorts>
+

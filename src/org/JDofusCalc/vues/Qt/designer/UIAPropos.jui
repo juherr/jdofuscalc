@@ -1,0 +1,180 @@
+<ui version="4.0" language="jambi" >
+ <class>UIAPropos</class>
+ <widget class="QWidget" name="UIAPropos" >
+  <property name="windowModality" >
+   <enum>com.trolltech.qt.core.Qt.WindowModality.WindowModal</enum>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>477</width>
+    <height>288</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>À propos</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" >
+   <item row="5" column="2" colspan="4" >
+    <widget class="QTextEdit" name="txtInformations" >
+     <property name="focusPolicy" >
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+     </property>
+     <property name="readOnly" >
+      <bool>true</bool>
+     </property>
+     <property name="html" >
+      <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">Le concepteur de ce programme est totalement indépendant de l'équipe et des concepteurs de Dofus. De ce fait, Ankama Games ne saurait en aucune manière être tenue responsable des informations, inexactitudes, effets secondaire et/ou dommages causés par l'installation ou l'utilisation de ce logiciel.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">Malgré tout le soin apporté à la réalisation de ce programme, il se peut que des erreurs subsistent, et que des effets involontaires se manifestent. Dans un tel cas, l'auteur ne saurait être tenu pour responsable de ces effets quels qu'ils soient.&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="4" >
+    <widget class="QLabel" name="lblNomLogiciel" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text" >
+      <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;span style=" font-weight:600; color:#55aaff;">J&lt;/span>&lt;span style=" font-weight:600;">DofusCalc&lt;/span>, d'après une idée originale de &lt;a href="http://forums.jeuxonline.info/member.php?u=113776">&lt;span style=" text-decoration: underline; color:#0000ff;">HarvestR&lt;/span>&lt;/a>.&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+     <property name="openExternalLinks" >
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" colspan="2" >
+    <widget class="QLabel" name="lblVersionLogiciel" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text" >
+      <string>Version</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="4" >
+    <widget class="QLabel" name="lblCopyright" >
+     <property name="text" >
+      <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">(c) Copyright PAPAYA Alexandre, 2008, 2009.&lt;/span>&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" colspan="4" >
+    <widget class="QLabel" name="lblLicence" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text" >
+      <string>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">Logiciel distribué sous licence CeCILL compatible avec la licence &lt;a href="http://www.gnu.org/copyleft/gpl.html">&lt;span style=" text-decoration: underline; color:#0000ff;">GNU GPL&lt;/span>&lt;/a>.&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+     <property name="openExternalLinks" >
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2" >
+    <widget class="QPushButton" name="btnOK" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy" >
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text" >
+      <string>OK</string>
+     </property>
+     <property name="icon" >
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/ok.png</normaloff>classpath:org/JDofusCalc/ressources/images/ok.png</iconset>
+     </property>
+     <property name="iconSize" >
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3" >
+    <widget class="QPushButton" name="btnLicence" >
+     <property name="focusPolicy" >
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text" >
+      <string>Afficher la licence</string>
+     </property>
+     <property name="icon" >
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/documentinfo.png</normaloff>classpath:org/JDofusCalc/ressources/images/documentinfo.png</iconset>
+     </property>
+     <property name="iconSize" >
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item rowspan="3" row="0" column="0" >
+    <widget class="QLabel" name="lblIconeLogiciel" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text" >
+      <string/>
+     </property>
+     <property name="pixmap" >
+      <pixmap>classpath:org/JDofusCalc/ressources/images/icone.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2" colspan="4" >
+    <widget class="QLabel" name="lblAnkama" >
+     <property name="text" >
+      <string>Dofus et certaines illustrations sont la propriété d'Ankama Games - Tous droits réservés.</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>btnLicence</tabstop>
+  <tabstop>txtInformations</tabstop>
+  <tabstop>btnOK</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

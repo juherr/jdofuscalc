@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: org/JDofusCalc/Main
+Class-Path: bibliotheques/qtjambi.jar bibliotheques/qtjambi-plateforme.jar bibliotheques/jdom.jar  bibliotheques/h2.jar bibliotheques/log4j.jar

@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>UIBonusPanoplies</class>
+ <widget class="QWidget" name="UIBonusPanoplies">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>839</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Bonus des panoplies</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape">
+      <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="1">
+       <widget class="QLabel" name="lbl">
+        <property name="text">
+         <string>Panoplie :</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2" colspan="2">
+       <widget class="QComboBox" name="cmbPanoplies">
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="3">
+       <widget class="QWidgetFiltre" name="filtre"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QFrame" name="frame">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape">
+      <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <property name="margin">
+       <number>1</number>
+      </property>
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <item row="0" column="0">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>com.trolltech.qt.core.Qt.Orientation.Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>com.trolltech.qt.gui.QSizePolicy.Policy.Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>50</width>
+          <height>0</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="1">
+       <widget class="QFrame" name="frameStatsGene">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame {
+	border: 1px solid #4578ba;
+	background-color: #8aaad9;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <property name="sizeConstraint">
+          <enum>com.trolltech.qt.gui.QLayout.SizeConstraint.SetDefaultConstraint</enum>
+         </property>
+         <property name="margin">
+          <number>1</number>
+         </property>
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item row="0" column="1">
+          <widget class="QLabel" name="lblStatsPA">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Points d'action</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pa.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="lblStatsPM">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Points de mouvement</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pm.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="lblStatsPO">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Bonus de Portée</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/po.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="lblStatsIni">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>30</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Initiative</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/ini.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="lblStatsPP">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Prospection</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pp.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="lblStatsVie">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>30</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Vie totale</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/vie.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QFrame" name="frameStatsCaract">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame {
+	border: 1px solid #f19142;
+	background-color: #f9c884;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <property name="margin">
+          <number>1</number>
+         </property>
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item row="0" column="1">
+          <widget class="QLabel" name="lblStatsSag">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Sagesse</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/sagesse.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="lblStatsChance">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Chance</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/chance.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="lblStatsForce">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Force</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/force.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="lblStatsInt">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Intelligence</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/intelligence.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="lblStatsAgi">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Agilité</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/agilite.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="lblStatsVita">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>30</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Vitalité</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/vita.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QFrame" name="frameStatsAutre">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame {
+	border: 1px solid #47af64;
+	background-color: #8fc794;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <property name="margin">
+          <number>1</number>
+         </property>
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item row="0" column="1">
+          <widget class="QLabel" name="lblStatsPDom">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>% Dommages</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pdommages.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="lblStatsInvoc">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Créatures invocables</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/invoc.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="lblStatsCC">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Bonus Coups Critiques</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/critique.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="lblStatsSoin">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Soins</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/soins.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="lblStatsDomPiege">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Dommages aux pièges</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/piege.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QLabel" name="lblStatsPDomPiege">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>% Dommages aux pièges</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/ppiege.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <widget class="QLabel" name="lblStatsEC">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Malus aux échecs critiques</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/echecs_critiques.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="8">
+          <widget class="QLabel" name="lblStatsRenvois">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Revois</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/renvois.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="lblStatsDom">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Dommages</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/dommages.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QFrame" name="frameStatsRes">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame {
+	border: 1px solid #ab46a0;
+	background-color: #c38cbc;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_9">
+         <property name="sizeConstraint">
+          <enum>com.trolltech.qt.gui.QLayout.SizeConstraint.SetDefaultConstraint</enum>
+         </property>
+         <property name="margin">
+          <number>1</number>
+         </property>
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="lblStatsResMagique">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Résistance Magique</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resMagique.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="lblStatsResPhysique">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Résistance physique</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resPhysique.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="lblStatsResNeutre">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Résistance Neutre</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resNeutre.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="lblStatsPResNeutre">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>% Résistance Neutre</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResNeutre.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLabel" name="lblStatsResTerre">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Résistance Terre</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resTerre.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QLabel" name="lblStatsPResTerre">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>% Résistance Terre</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResTerre.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="6">
+          <widget class="QLabel" name="lblStatsResFeu">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Résistance Feu</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resFeu.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <widget class="QLabel" name="lblStatsPResFeu">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>% Résistance Feu</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResFeu.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="8">
+          <widget class="QLabel" name="lblStatsResEau">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Résistance Eau</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resEau.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="9">
+          <widget class="QLabel" name="lblStatsPResEau">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>% Résistance Eau</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResEau.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="10">
+          <widget class="QLabel" name="lblStatsResAir">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>Résistance Air</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resAir.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="11">
+          <widget class="QLabel" name="lblStatsPResAir">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>20</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="statusTip">
+            <string>% Résistance Air</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResAir.png</pixmap>
+           </property>
+           <property name="alignment">
+            <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="5">
+       <widget class="QWidgetBonusPanopliesLigne" name="ligne1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="test" stdset="0">
+         <number>1</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="5">
+       <widget class="QWidgetBonusPanopliesLigne" name="ligne2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="test" stdset="0">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="5">
+       <widget class="QWidgetBonusPanopliesLigne" name="ligne3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="test" stdset="0">
+         <number>3</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="5">
+       <widget class="QWidgetBonusPanopliesLigne" name="ligne4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="test" stdset="0">
+         <number>4</number>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" colspan="5">
+       <widget class="QWidgetBonusPanopliesLigne" name="ligne5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="test" stdset="0">
+         <number>5</number>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="5">
+       <widget class="QWidgetBonusPanopliesLigne" name="ligne6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="test" stdset="0">
+         <number>6</number>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0" colspan="5">
+       <widget class="QWidgetBonusPanopliesLigne" name="ligne7">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="test" stdset="0">
+         <number>7</number>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" colspan="5">
+       <widget class="QWidgetBonusPanopliesLigne" name="ligne8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="test" stdset="0">
+         <number>8</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QFrame" name="frame2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape">
+      <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>com.trolltech.qt.core.Qt.Orientation.Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>738</width>
+          <height>17</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnFermer">
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>Fermer</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="lblNom">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Aucune panoplie sélectionnée</string>
+     </property>
+     <property name="alignment">
+      <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWidgetBonusPanopliesLigne</class>
+   <extends></extends>
+   <header>org.JDofusCalc.vues.Qt.composants</header>
+  </customwidget>
+  <customwidget>
+   <class>QWidgetFiltre</class>
+   <extends></extends>
+   <header>org.JDofusCalc.vues.Qt.composants</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

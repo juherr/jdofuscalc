@@ -1,0 +1,37 @@
+* TODO List *
+* Liste des ajouts ou modifications à faire *
+
+/!\ Permanant :
+- Eradiquer tous les bugs
+- Rendre l'interface la plus pratique et la plus jolie possible
+	(images, textes alternatifs, penser aux petites résolutions, ...)
+- Optimiser et nettoyer le code
+
+/!\ A faire :
+- Au passage, une proposition d'amélioration : sélectionner automatiquement les nouveaux éléments créés. Là, pour créer un nouvel item, faut faire Nouveau + Sélection de l'objet + Sélection du modèle + Charger. Le must serait d'avoir à faire Sélection du modèle + Nouveau. J'veux dire, ça me parait plus naturel de créer un nouvel objet et supprimer le précédent que de remplacer.
+- Gestion des invocations (stats de l'invotation, temps de relance, ..)
+- importation des builds et équipements de Dofuscalc sur JDC
+- Une fonction d'exportation des données
+- gestion des incarnations par JDC (tourmenteurs et bandits)
+- conditions métier et niveauMetier à revoir
+
+
+- Finir la DofusDatabase :
+	conditions manquantes
+	effets des sorts
+
+- Plus details
+
+- "Compresser" les fenetres (onglets ?)
+
+- Fonction "resumer" : http://forums.jeuxonline.info/showpost.php?p=17415969&postcount=126
+
+- Gestion des tests d'équipements
+
+- Tableau des armes de classes
+
+- Une fenetre de bonus des panoplies
+
+- Fonction de comparaisons de sorts, armes, ou équipements
+
+- Un ficher d'aide a l'utilisation

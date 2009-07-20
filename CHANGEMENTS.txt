@@ -1,0 +1,251 @@
+﻿/***************************************
+ * Details des changements de versions *
+ ***************************************/
+
+Légende :
+* -> Modification d'une fonctionnalité ou correction d'un bug
++ -> Ajout d'une nouvelle fonctionnalité
+- -> Suppression d'une fonctionnalité
+
+##########
+[0.6.2000]
+	BETA
+
+Date : ? juin 2009
+
+/¤\ JDofusCalc :
+
++ Ajout des dons d'alignement mercenaire manquants (initiative et résistances).
++ Ajout du boost "Dommages physiques" dans l'onglet de simulation.
++ Nouvel outil : Fenêtre des bonus des panoplies.
++ Ajout d'un filtre sur une majorité des listes déroulantes.
++ Nouveau bouton pour afficher/cacher les noms des objets équipés.
++ Il est désormais possible de simuler différents coprs à corps bien plus facilement.
+
+* Correction de la formule de calcul de l'initiative de la classe Sacrieur.
+* Plusieurs icônes ne s'affichaient plus.
+* La fenêtre de forgemagie d'une arme inversait certaines valeurs.
+* Correction de l'affichage de la fenêtre des détails de la simulation.
+* Les boîtes de dialogues de l'application n'étaient pas homogènes avec les fenêtres.
+* Correction des dégâts des armes et des sorts de type "vole de vie".
+* Correction des valeurs des potions de forgemagie élémentaire.
+* Un problème de chargement des CàC entraînait le blocage du chargement de celui-ci et des animaux.
+* Le chargement d'un personnage féminin affiche correctement le nouvel avatar.
+
+- Désactivation temporaire du module de mise à jour automatique.
+
+/¤\ DofusDatabase :
+
++ Ajout du sort "Punition" de la classe Sacrieur.
+
+* Division du sort "Boomerang perfide" en quatre.
+* La vie de base des 12 classes passe à 50 suite à la mise à jour du 09/06/09.
+
+/¤\ APIs :
+
+* La bibliothèques graphique "Qt Jambi" passe en version 4.5.0 (Voir les changements sur http://trolltech.com/developer/changes/changes-4.5.0).
+* La bibliothèques de gestion de la base de données "h2" passe en version 1.1.116 (Voir les changements sur http://www.h2database.com/html/changelog.html).
+
+
+##########
+[0.6.1100]
+	BETA
+
+Date : 21 avril 2009
+
+/¤\ JDofusCalc :
+
+* L'icône de la caractéristique "force" n'était pas affichée.
+* Le lanceur de l'application ne fonctionnait pas sur Mas OS.
+* La sauvegarde des familiers enregistrait des données corrompues dans la base de données rendant la réouverture de l'application impossible.
+* Correction de la fonction de génération d'un nouveau groupe d'objets.
+* Correction de la fonction de génération d'un nouveau personnage.
+* Correction de la formule de calcul de l'initiative de la classe Sacrieur.
+* Une fuite mémoire du lanceur empêche la version précédente de se mettre à jour correctement depuis le module de mie à jour de l'application. Ainsi il est impossible d'utiliser le module pour cette mouture (mais le mode manuel est fonctionnel).
+
+/¤\ DofusDatabase :
+
+* Les données des modèles des montures étaient corrompues, il était impossible d'ouvrir leur fenêtre de gestion.
+
+- Suppression du bonus de 20 de prospection de la classe Sacrieur.
+
+
+##########
+[0.6.1000]
+	BETA
+
+Date : 15 avril 2009
+
+/¤\ JDofusCalc :
+	A partir de cette version, pour des raisons de compatibilités avec Mac OS X, toutes les distributions de JDofusCalc seront compilées avec le compilateur Java 5.0 .
+	Ainsi la version minimum du JRE pour lancer l'application n'est plus la 1.6 mais la 1.5 (mais il sera toujours possible de lancer l'application avec des JREs plus récents, comme la 1.6).
+
++ Compatibilité avec la version 1.27.0 de Dofus :
+	* Suppression de la totalité des dons d'alignement (excepté ceux des mercenaires).
+	* Modification de la formule de calcul de l'initiative du personnage.
+	* Modification de la formule de calcul de la vie du personnage.
++ Nouveau module de sauvegarde des personnage plus performant.
++ Possibilité de sauvegarder les objets équipés (cape, coiffe, amulette, etc. mais aussi les dofus et l'animal équipé) dans un "groupe d'objets".
++ Ajout d'un calculateur de coups critiques disponible via le menu "Outils".
++ Ajout d'un calculateur des coûts d'augmentation des caractéristiques.
++ Ajout d'un calculateur des probabilité de tacle et d'esquive du personnage.
++ Implémentation d'un système de log.
+
+* Correction du bug empêchant la sauvegarde des familiers.
+* Modifications de la fenêtre de forgemagie.
+* Correction de la formule de calcul du taux de coups critiques.
+* Le label "sur CC" dans l'onglet de simulation n'était pas aligné avec les données.
+* Modifications de la méthode de stockage des conditions. La lecture et la maintenance sera dorénavant bien plus rapide.
+	/!\ Ces modifications vont entraîner la remise à zéro des conditions sur vos sauvegardes d'équipements et d'armes.
+* Nettoyage de printemps effectué sur la totalité du code source de l'application. Il est maintenant complètement commenté et optimisé (dans la mesure du possible).
+
+/¤\ DofusDatabase :
+	La DofusDatabase passe en version 0.7 .
+	
++ Compatibilité avec la version 1.27.0 de Dofus :
+	* Modification du sort "Absorption" de la classe Sacrieur.
+	* Ajout du sort "Dissolution" de la classe Sacrieur.
+	* Modification du sort "Mot Blessant" de la classe Eniripsa.
+	* Modification du sort "Mot Vampirique" de la classe Eniripsa.
+	* Modification du sort "Mot d'Altruisme" de la classe Eniripsa.
+	* Modification du sort "Félintion" de la classe Ecaflip.
+	* Modification du sort "Pile ou Face" de la classe Ecaflip.
+	* Ajout du sort "Pile ou Face (Allié)" de la classe Ecaflip.
+	* Modification du sort "Tout ou rien" de la classe Ecaflip.
+	* Ajout du sort "Tout ou rien (Allié)" de la classe Ecaflip.
+	* Modification du sort "Frappe de Xélor" de la classe Xélor.
+	* Modification du sort "Rayon Obscur" de la classe Xélor.
+	* Ajout du sort "Colère de Iop (Faible)" de la classe Iop.
+	* Modification du sort "Colère de Iop" de la classe Iop.
+	* Suppression du sort "Brokle" de la classe Iop.
+	* Modification du sort "Piège Sournois" de la classe Sram.
+	* Suppression du sort "Attaque Trompeuse" de la classe Sram.
+	* Ajout du sort "Poison insidieux" de la classe Sram.
+	* Modification du sort "Glyphe agressif" de la classe Féca.
+	* Modification du sort "Glyphe Enflammé" de la classe Féca.
+
+* Les noms des montures "Dorée et X" sont corrigés.
+* Correction du niveau 1 du sort "Feu de Brousse" de la classe Sadida.
+
+/¤\ APIs :
+
+* La bibliothèques de gestion de la base de données "h2" passe en version 1.1.111 (Voir les changements sur http://www.h2database.com/html/changelog.html).
+
+
+##########
+[0.5.1003]
+	BETA
+
+Date : 01 février 2009
+
+/¤\ JDofusCalc :
+	En continuité des versions précedentes, les distributions de JDofusCalc pour les architectures 64-bit (Windows XP/Vista et GNU/Linux) sont disponibles.
+
++ Le bouton "Détails" dans l'onglet de simulation est pleinement utilisable.
++ Le bouton "FM" dans la fenêtre de gestion des armes permet maintenant de forgemager la première ligne de dégâts de l'arme.
++ Deux nouveaux bouton cochables font leurs apparitions dans l'onglet de simulation pour pouvoir activer à la demande la maîtrise et son coup critique.
++ Les jets moyens des modèles peuvent dorénavant être chargés.
++ Le détails des sorts est disponible dans l'onglet "Sorts". Il est de plus possible de paramétrer le niveau des sorts du personnage chargé (maîtrises comprises).
++ Optimisations et de nettoyage du code source. Il devient enfin lisible et présentable.
++ Deux nouvelles statistiques, présentes en base de données mais non affichées, sont disponibles : les renvois et les malus aux échecs critiques.
++ Les malus aux échecs critiques sont pris en compte dans les simulations.
++ Nouveau module de mise à jour (fonctionnel cette fois-ci).
++ Gestion des dofus.
++ Gestion des familiers.
++ Gestion des montures.
+
+* Les conditions en vitalité peuvent monter jusqu'à 2000.
+* Les statistiques globales sont grisées pour faire la différence avec les champs de texte modifiables.
+* Le tableau récapitulatif de l'équipement est désormais affiché dans une zone "scrollable", la fenêtre peut donc être redimensionnée pour les petites résolutions.
+* Les simulations tiennent compte de l'agilité et des bonus dans l'affichage des coups critiques.
+* La connexion au serveur de mise à jour ne bloque plus l'interface graphique.
+* Le programme est totalement affiché en français (le clic-droit par exemple).
+* Restructuration de certaines fenêtres pour les petites résolutions.
+* Majoration de la vie et de l'initiative à 1 et des PAs, PMs, de la portée et de la prospection à 0.
+* Les modèles des panoplies Pompanoplie, Panoplycélium, Panoplignon et Citronoplie ne se chargeaient pas suite à l'absence de ces dernières en base données.
+* Les bonus des panoplies sont comptés dans les statistiques globales.
+
+- Suppression du message indiquant à l'utilisateur qu'il essaye d'équiper un anneau appartenant à la même panoplie que celui déjà équipé (problèmes liés aux panoplies avec deux anneaux). 
+- Les sauvegardes des objets et des armes ne peuvent plus être renommées en passant par la liste.
+
+/¤\ DofusDatabase :
+	La DofusDatabase passe en version 0.6 .
+
++ Les sorts de soins de la classe Eniripsa sont disponibles.
++ Les pièges de la classe Sram sont disponibles.
++ Les sorts communs sont disponibles.
++ Ajout des panoplies : Pompanoplie, Panoplycélium, Panoplignon et Citronoplie.
++ Enregistrement des dofus disponibles dans le jeu.
++ Enregistrement des familiers de dofus.
++ Enregistrement des races de montures.
+
+* Le bug du sort "Flèche glacée" présent en 3 exemplaires est corrigé.
+* Les effets négatifs étaient inversés.
+* Les armes qui font perdre des points d'actions au porteur ou à la cible n'étaient pas correctement enregistrées.
+
+/¤\ APIs :
+
+* La bibliothèques de gestion de la base de données "h2" passe en version 1.1.106 (Voir les changements sur http://www.h2database.com/html/changelog.html).
+
+
+##########
+[0.2.1000]
+	BETA
+
+Date : 20 nov. 2008
+
+/¤\ JDofusCalc :
+	Lancement des distributions de JDofusCalc pour les systèmes GNU/Linux 32-bit et Mac OS compatibles.
+	Le support des architectures 64-bit sera disponible dans les prochaines versions.
+
++ L'utilisateur est dorénavant avertit que le serveur de mise à jour n'est pas disponible.
++ Prise en charge totale des boucliers.
++ Prise en charge totale des armes.
++ Prise en charge totale des conditions pour porter les armes/objets.
++ Une icône apparaît maintenant à droite des lignes du tableau récapitulatif de l'équipement pour vous informer de certaines erreurs dues aux conditions.
++ La simulation de l'arme équipée est désormais disponible.
++ Le champ "Grade" fait son apparition dans la fiche du personnage.
++ La gestion des maîtrises est disponible via le nouvel onglet "Sorts" de la fenêtre principale.
+		Le niveau des maîtrises n'est cependant pas encore sauvegardé.
+
+* Les champs de caractéristiques affichent tous les chiffres.
+* Le calcul de l'initiative ne tient plus en compte les caractéristiques négatives.
+* Le tableau récapitulatif de l'équipement est plus sobre pour une meilleure lisibilité.
+		Les couleurs ont disparues, les "0" sont replacés par des vides.
+* L'apostrophe (') est pleinement utilisable dans les noms.
+* Le bouton "Quitter" du menu "Fichier" fonctionne correctement.
+* Toutes les fenêtres s'ouvrent au centre de l'écran.
+* Le choix de l'alignement est correctement sauvegardé.
+
+- La barre de progression sur la fenêtre principale n'apparaît plus.
+
+/¤\ DofusDatabase :
+	La DofusDatabase passe en version 0.5 .
+	L'architecture de stockage des données à été totalement revue, aussi bien au niveau des modèles qu'au niveau des sauvegardes.
+	Cette nouvelle version va donc entrainer l'écrasement vos anciennes sauvegardes, désolé de la gène occasionnée.
+	Notez que je me réserve encore le droit de procéder à des modifications de l'architecture entrainant des pertes partielles ou totales de vos données.
+
++ Les armes sont toutes enregistrées.
++ Les boucliers sont enregistrés.
++ Les conditions pour porter les armes et certains objets sont enregistrées.
++ Les armes de prédilections sont enregistrées pour les 12 classes.
++ Les sorts d'attaque de la classe Crâ sont enregistrés.
++ Les sorts d'attaque de la classe Ecaflip sont enregistrés.
++ Les sorts d'attaque de la classe Pandawa sont enregistrés.
+
+* Correction de la description des sacrieurs.
+* Correction des sorts "Colère de Iop" et "Brokle" de la classe Iop.
+
+/¤\ APIs :
+
+* La bibliothèques graphique "Qt Jambi" passe en version 4.4.3 (Voir les changements sur http://trolltech.com/developer/changes/changes-4.4.3).
+* La bibliothèques de gestion de la base de données "h2" passe en version 1.1.103 (Voir les changements sur http://www.h2database.com/html/changelog.html).
+
+
+##########
+[0.1.1000]
+	BETA
+
+Date : 8 nov. 2008
+
+Première version distribuée de JDofusCalc.

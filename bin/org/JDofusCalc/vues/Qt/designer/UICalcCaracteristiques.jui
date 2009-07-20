@@ -1,0 +1,726 @@
+<ui version="4.0" language="jambi" >
+ <class>UICalcCaracteristiques</class>
+ <widget class="QWidget" name="UICalcCaracteristiques" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>635</width>
+    <height>306</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Calculateur de caractéristiques</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3" >
+   <item row="0" column="1" >
+    <widget class="QGroupBox" name="grpCalc" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Expanding" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title" >
+      <string>Calculateur</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2" >
+      <item row="0" column="2" >
+       <widget class="QLabel" name="lblActuel" >
+        <property name="text" >
+         <string>Actuel</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4" >
+       <widget class="QLabel" name="lblPoints" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Preferred" hsizetype="Expanding" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text" >
+         <string>Coût</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QLabel" name="lblVita" >
+        <property name="text" >
+         <string>Vitalité</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2" >
+       <widget class="QLabel" name="lblVitaActuel" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3" >
+       <widget class="QSpinBox" name="sbVita" >
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+        <property name="maximum" >
+         <number>999</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4" >
+       <widget class="QLabel" name="lblVitaPoints" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1" >
+       <widget class="QLabel" name="lblSag" >
+        <property name="text" >
+         <string>Sagesse</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2" >
+       <widget class="QLabel" name="lblSagActuel" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3" >
+       <widget class="QSpinBox" name="sbSag" >
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+        <property name="maximum" >
+         <number>999</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4" >
+       <widget class="QLabel" name="lblSagPoints" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1" >
+       <widget class="QLabel" name="lblForce" >
+        <property name="text" >
+         <string>Force</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2" >
+       <widget class="QLabel" name="lblForceActuel" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3" >
+       <widget class="QSpinBox" name="sbForce" >
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+        <property name="maximum" >
+         <number>999</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4" >
+       <widget class="QLabel" name="lblForcePoints" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1" >
+       <widget class="QLabel" name="lblInt" >
+        <property name="text" >
+         <string>Intelligence</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2" >
+       <widget class="QLabel" name="lblIntActuel" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3" >
+       <widget class="QSpinBox" name="sbInt" >
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+        <property name="maximum" >
+         <number>999</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="4" >
+       <widget class="QLabel" name="lblIntPoints" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1" >
+       <widget class="QLabel" name="lblChance" >
+        <property name="text" >
+         <string>Chance</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2" >
+       <widget class="QLabel" name="lblChanceActuel" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3" >
+       <widget class="QSpinBox" name="sbChance" >
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+        <property name="maximum" >
+         <number>999</number>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4" >
+       <widget class="QLabel" name="lblChancePoints" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1" >
+       <widget class="QLabel" name="lblAgi" >
+        <property name="text" >
+         <string>Agilité</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2" >
+       <widget class="QLabel" name="lblAgiActuel" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="3" >
+       <widget class="QSpinBox" name="sbAgi" >
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+        <property name="maximum" >
+         <number>999</number>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="4" >
+       <widget class="QLabel" name="lblAgiPoints" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3" >
+       <widget class="QLabel" name="lblPrevu" >
+        <property name="text" >
+         <string>Prévu</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="icoVita" >
+        <property name="pixmap" >
+         <pixmap/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" >
+       <widget class="QLabel" name="icoSagesse" >
+        <property name="pixmap" >
+         <pixmap/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" >
+       <widget class="QLabel" name="icoForce" >
+        <property name="pixmap" >
+         <pixmap/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" >
+       <widget class="QLabel" name="icoInt" >
+        <property name="pixmap" >
+         <pixmap/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" >
+       <widget class="QLabel" name="icoChance" >
+        <property name="pixmap" >
+         <pixmap/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" >
+       <widget class="QLabel" name="icoAgi" >
+        <property name="pixmap" >
+         <pixmap/>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2" colspan="2" >
+       <widget class="QLabel" name="lblTotal" >
+        <property name="text" >
+         <string>Total :</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="4" >
+       <widget class="QLabel" name="lblCoutTotal" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Expanding" hsizetype="Preferred" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>30</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="text" >
+         <string>0</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="2" colspan="3" >
+       <widget class="QLabel" name="lblNiveaux" >
+        <property name="text" >
+         <string>Soit &lt;strong>0 niveau(x)&lt;/strong>.</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="2" >
+    <widget class="QGroupBox" name="grpPaliers" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Expanding" hsizetype="Expanding" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title" >
+      <string>Paliers de classe</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" >
+      <item row="0" column="0" >
+       <widget class="QLabel" name="lbl" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text" >
+         <string>Classe :</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" >
+       <widget class="QLabel" name="lblClasse" >
+        <property name="font" >
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text" >
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2" >
+       <widget class="QTableWidget" name="tableauPaliers" >
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+        <property name="editTriggers" >
+         <set>com.trolltech.qt.gui.QAbstractItemView.EditTrigger.NoEditTriggers</set>
+        </property>
+        <property name="selectionMode" >
+         <enum>com.trolltech.qt.gui.QAbstractItemView.SelectionMode.NoSelection</enum>
+        </property>
+        <row>
+         <property name="text" >
+          <string>Vitalité</string>
+         </property>
+        </row>
+        <row>
+         <property name="text" >
+          <string>Sagesse</string>
+         </property>
+        </row>
+        <row>
+         <property name="text" >
+          <string>Force</string>
+         </property>
+        </row>
+        <row>
+         <property name="text" >
+          <string>Intelligence</string>
+         </property>
+        </row>
+        <row>
+         <property name="text" >
+          <string>Chance</string>
+         </property>
+        </row>
+        <row>
+         <property name="text" >
+          <string>Agilité</string>
+         </property>
+        </row>
+        <column>
+         <property name="text" >
+          <string>1 pour 2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text" >
+          <string>1 pour 1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text" >
+          <string>2 pour 1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text" >
+          <string>3 pour 1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text" >
+          <string>4 pour 1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text" >
+          <string>5 pour 1</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="3" >
+    <widget class="QPushButton" name="btnFermer" >
+     <property name="focusPolicy" >
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text" >
+      <string>Fermer</string>
+     </property>
+     <property name="icon" >
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</iconset>
+     </property>
+     <property name="iconSize" >
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" >
+    <spacer name="horizontalSpacer" >
+     <property name="orientation" >
+      <enum>com.trolltech.qt.core.Qt.Orientation.Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

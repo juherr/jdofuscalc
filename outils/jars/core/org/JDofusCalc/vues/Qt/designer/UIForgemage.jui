@@ -1,0 +1,385 @@
+<ui version="4.0" language="jambi" >
+ <class>UIForgemage</class>
+ <widget class="QWidget" name="UIForgemage" >
+  <property name="windowModality" >
+   <enum>com.trolltech.qt.core.Qt.WindowModality.WindowModal</enum>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>224</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Forgemage</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" >
+   <item rowspan="2" row="0" column="0" >
+    <widget class="QGroupBox" name="grpNautre" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Expanding" hsizetype="Fixed" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title" >
+      <string>Nature de la potion</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout" >
+      <item>
+       <widget class="QRadioButton" name="rbtnTerre" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Terre</string>
+        </property>
+        <property name="checked" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbtnFeu" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Feu</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbtnEau" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Eau</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbtnAir" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Air</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item rowspan="2" row="0" column="1" >
+    <widget class="QGroupBox" name="grpPuissance" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Expanding" hsizetype="Expanding" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title" >
+      <string>Puissance de la potion</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2" >
+      <item>
+       <widget class="QRadioButton" name="rbtnPForte" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Forte</string>
+        </property>
+        <property name="checked" >
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbtnPMoy" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Moyenne</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="rbtnPFaible" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy" >
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text" >
+         <string>Faible</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="2" >
+    <widget class="QPushButton" name="btnFermer" >
+     <property name="focusPolicy" >
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text" >
+      <string>Fermer</string>
+     </property>
+     <property name="icon" >
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</normaloff></iconset>
+     </property>
+     <property name="iconSize" >
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" >
+    <widget class="QPushButton" name="btnForgemager" >
+     <property name="focusPolicy" >
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text" >
+      <string>Forgemager</string>
+     </property>
+     <property name="icon" >
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/fm.png</normaloff>classpath:org/JDofusCalc/ressources/images/fm.png</iconset>
+     </property>
+     <property name="iconSize" >
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item rowspan="3" row="2" column="0" colspan="2" >
+    <widget class="QGroupBox" name="grpRes" >
+     <property name="title" >
+      <string>Résultats</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2" >
+      <item row="0" column="1" >
+       <widget class="QLabel" name="lblJetsMin" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>40</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="frameShape" >
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="text" >
+         <string/>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+        <property name="indent" >
+         <number>8</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2" >
+       <widget class="QLabel" name="flecheMin" >
+        <property name="font" >
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text" >
+         <string>à</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3" >
+       <widget class="QLabel" name="lblJetsMinFM" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>40</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="frameShape" >
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="text" >
+         <string/>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" >
+       <widget class="QLabel" name="lblJetsMax" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>40</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="frameShape" >
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="text" >
+         <string/>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2" >
+       <widget class="QLabel" name="flecheMax" >
+        <property name="font" >
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text" >
+         <string>à</string>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3" >
+       <widget class="QLabel" name="lblJetsMaxFM" >
+        <property name="sizePolicy" >
+         <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize" >
+         <size>
+          <width>40</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet" >
+         <string notr="true" >background-color: rgb(255, 255, 255);
+border: 1px solid black;</string>
+        </property>
+        <property name="frameShape" >
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="text" >
+         <string/>
+        </property>
+        <property name="alignment" >
+         <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" >
+       <widget class="QLabel" name="lblBase" >
+        <property name="text" >
+         <string>Jets de base</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" >
+       <widget class="QLabel" name="lblFM" >
+        <property name="text" >
+         <string>Jets forgemagés</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

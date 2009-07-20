@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="4.1.1" transformSequenceNumber="1">
+  <directoryPresets config="C:/Documents and Settings/sacha/My Documents/Java/Projets/JDofusCalc/src/org/JDofusCalc/ressources/images" />
+  <application name="JDofusCalc" distributionSourceDir="C:/Documents and Settings/sacha/My Documents/Java/Projets/JDofusCalc/outils/distribution/JDofusCalc">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="JDofusCalc" type="1" iconSet="true" iconFile="C:/Documents and Settings/sacha/My Documents/Java/Projets/JDofusCalc/src/org/JDofusCalc/ressources/images/icone.ico" executableDir="." redirectStderr="true" stderrFile="error.log" redirectStdout="false" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" amd64="false">
+    <messageSet />
+    <versionInfo include="true" fileVersion="" fileDescription="JDofusCalc Windows 32-bit" legalCopyright="(c) PAPAYA Alexandre, 2008, 2009" internalName="JDofusCalc" companyName="JDofusCalc" productVersion="1.0" />
+  </executable>
+  <splashScreen show="false" autoOff="true" alwaysOnTop="false" width="509" height="357" bitmapFile="C:/Documents and Settings/sacha/My Documents/Java/Projets/JDofusCalc/src/org/JDofusCalc/ressources/images/splashscreen.png" java6SplashScreen="false">
+    <text>
+      <statusLine x="400" y="10" text="Initialisation" font="Arial" fontSize="8" fontColor="255,255,255" fontWeight="500" />
+      <versionLine x="400" y="330" text="" font="Arial" fontSize="8" fontColor="255,255,255" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="org.JDofusCalc.lanceur.Lanceur" vmParameters="" arguments="" allowVMPassthroughParameters="false" preferredVM="" minVersion="1.5" maxVersion="" allowBetaVM="true" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <scanDirectory location="." failOnError="true" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
+

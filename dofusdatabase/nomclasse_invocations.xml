@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invocations>
+	<invocation>
+		<nom></nom>
+		
+		<caracteristiques niveau="1">
+			<pv></pv>
+			<pa></pa>
+			<pm></pm>
+			<force></force>
+			<intelligence></intelligence>
+			<chance></chance>
+			<agilite></agilite>
+			<sagesse></sagesse>
+			
+			<esquivepa></esquivepa>
+			<esquivepm></esquivepm>
+			
+			<terre></terre>
+			<air></air>
+			<feu></feu>
+			<eau></eau>
+			<neutre></neutre>
+		</caracteristiques>
+		
+		<caracteristiques niveau="2>
+			<pv></pv>
+			<pa></pa>
+			<pm></pm>
+			<force></force>
+			<intelligence></intelligence>
+			<chance></chance>
+			<agilite></agilite>
+			<sagesse></sagesse>
+			
+			<esquivepa></esquivepa>
+			<esquivepm></esquivepm>
+			
+			<terre></terre>
+			<air></air>
+			<feu></feu>
+			<eau></eau>
+			<neutre></neutre>
+		</caracteristiques>
+		
+		<caracteristiques niveau="3">
+			<pv></pv>
+			<pa></pa>
+			<pm></pm>
+			<force></force>
+			<intelligence></intelligence>
+			<chance></chance>
+			<agilite></agilite>
+			<sagesse></sagesse>
+			
+			<esquivepa></esquivepa>
+			<esquivepm></esquivepm>
+			
+			<terre></terre>
+			<air></air>
+			<feu></feu>
+			<eau></eau>
+			<neutre></neutre>
+		</caracteristiques>
+		
+		<caracteristiques niveau="4">
+			<pv></pv>
+			<pa></pa>
+			<pm></pm>
+			<force></force>
+			<intelligence></intelligence>
+			<chance></chance>
+			<agilite></agilite>
+			<sagesse></sagesse>
+			
+			<esquivepa></esquivepa>
+			<esquivepm></esquivepm>
+			
+			<terre></terre>
+			<air></air>
+			<feu></feu>
+			<eau></eau>
+			<neutre></neutre>
+		</caracteristiques>
+		
+		<caracteristiques niveau="5">
+			<pv></pv>
+			<pa></pa>
+			<pm></pm>
+			<force></force>
+			<intelligence></intelligence>
+			<chance></chance>
+			<agilite></agilite>
+			<sagesse></sagesse>
+			
+			<esquivepa></esquivepa>
+			<esquivepm></esquivepm>
+			
+			<terre></terre>
+			<air></air>
+			<feu></feu>
+			<eau></eau>
+			<neutre></neutre>
+		</caracteristiques>
+		
+		<caracteristiques niveau="6">
+			<pv></pv>
+			<pa></pa>
+			<pm></pm>
+			<force></force>
+			<intelligence></intelligence>
+			<chance></chance>
+			<agilite></agilite>
+			<sagesse></sagesse>
+			
+			<esquivepa></esquivepa>
+			<esquivepm></esquivepm>
+			
+			<terre></terre>
+			<air></air>
+			<feu></feu>
+			<eau></eau>
+			<neutre></neutre>
+		</caracteristiques>
+	</invocation>
+</invocations>

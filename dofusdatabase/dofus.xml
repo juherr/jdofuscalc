@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<dofus>
+		<nom>Dofawa</nom>
+		<description>Ce Dofus ressemble étrangement à un oeuf de Dragodinde sauvage... Pour une fois, les apparences ne sont peut-être pas trompeuses.</description>
+		<caracteristiques>
+			<caracteristique nom="Vitalité">
+				<min>1</min>
+				<max>1</max>
+			</caracteristique>
+		</caracteristiques>
+	</dofus>
+	<dofus>
+		<nom>Dofus Cawotte</nom>
+		<description>Le Dofus Cawotte augmente la sagesse de son porteur.</description>
+		<caracteristiques>
+			<caracteristique nom="Sagesse">
+				<min>6</min>
+				<max>50</max>
+			</caracteristique>
+		</caracteristiques>
+	</dofus>
+	<dofus>
+		<nom>Dofus Emeraude</nom>
+		<description>Plus vert qu'un Tofu malade, le Dofus Emeraude fut créé par Aerafal, le Dragon de l'Air. Pour créer quelque chose d'aussi vert, il devait avoir le mal de l'air. Un comble, non ?</description>
+		<caracteristiques>
+			<caracteristique nom="Vie">
+				<min>51</min>
+				<max>100</max>
+			</caracteristique>
+		</caracteristiques>
+	</dofus>
+	<dofus>
+		<nom>Dofus Kaliptus</nom>
+		<description>Personne ne connaît le dragon à l'origine de ce Dofus. On raconte juste qu'il aurait ingéré une quantité effroyable de feuilles de Kaliptus, avant de pondre et de mourir d'une terrible crise d'aérophagie.</description>
+		<caracteristiques>
+			<caracteristique nom="Prospection">
+				<min>6</min>
+				<max>30</max>
+			</caracteristique>
+		</caracteristiques>
+	</dofus>
+	<dofus>
+		<nom>Dofus Ocre</nom>
+		<description>Créé par Terrakourial, le Dragon de la Terre, ce Dofus concentre de grands pouvoirs à ne pas mettre entre toutes les mains... Ni entre tous les pieds d'ailleurs.</description>
+		<caracteristiques>
+			<caracteristique nom="Pa">
+				<min>1</min>
+				<max>1</max>
+			</caracteristique>
+		</caracteristiques>
+	</dofus>
+	<dofus>
+		<nom>Dofus Pourpre</nom>
+		<description>C'est le Dragon du Feu Ignemikhal qui créa le Dofus Pourpre, un œuf dont le moins qu'on puisse dire, c'est qu'il sent le soufre - mais il sent bien d'autres choses encore...</description>
+		<caracteristiques>
+			<caracteristique nom="% Dommages">
+				<min>26</min>
+				<max>50</max>
+			</caracteristique>
+		</caracteristiques>
+	</dofus>
+	<dofus>
+		<nom>Dofus Turquoise</nom>
+		<description>Le Dofus Turquoise fut créé par Aguabrial, le Dragon de l'Eau. Quand on y pense, c'est fou ce qu'un Dragon peut faire avec de l'eau...</description>
+		<caracteristiques>
+			<caracteristique nom="Coups critiques">
+				<min>11</min>
+				<max>20</max>
+			</caracteristique>
+		</caracteristiques>
+	</dofus>
+	<dofus>
+		<nom>Dofus Vulbis</nom>
+		<description>Grâce à ce Dofus, vous jouirez d'une grande popularité auprès du sexe opposé. Si seulement vous arrêtiez de croire naïvement tout ce que l'on vous raconte à propos des Dofus et de leurs vertus.</description>
+		<caracteristiques>
+			<caracteristique nom="Pm">
+				<min>1</min>
+				<max>1</max>
+			</caracteristique>
+		</caracteristiques>
+	</dofus>
+</root>

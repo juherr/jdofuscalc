@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'UIFiltre.jui'
 **
-** Created: mer. 24. juin 12:04:04 2009
+** Created: mer. 22. juil. 00:13:47 2009
 **      by: Qt User Interface Compiler version 4.5.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
@@ -47,7 +47,7 @@ public class UIFiltre implements com.trolltech.qt.QUiForm<QWidget>
         sizePolicy.setVerticalStretch((byte)0);
         sizePolicy.setHeightForWidth(btnEffacer.sizePolicy().hasHeightForWidth());
         btnEffacer.setSizePolicy(sizePolicy);
-        btnEffacer.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/cancel.png")));
+        btnEffacer.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/cancel.png")));
         btnEffacer.setIconSize(new QSize(10, 10));
 
         horizontalLayout.addWidget(btnEffacer);

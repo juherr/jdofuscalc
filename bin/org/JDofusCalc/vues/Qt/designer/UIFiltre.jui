@@ -46,7 +46,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/cancel.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/cancel.png</iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/cancel.png</normaloff>classpath:org/JDofusCalc/ressources/images/cancel.png</iconset>
      </property>
      <property name="iconSize">
       <size>

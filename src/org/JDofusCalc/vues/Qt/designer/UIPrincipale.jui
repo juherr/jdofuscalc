@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/icone.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/icone.png</iconset>
+    <normaloff>classpath:org/JDofusCalc/ressources/images/icone.png</normaloff>classpath:org/JDofusCalc/ressources/images/icone.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -394,7 +394,7 @@
                 </property>
                 <property name="icon">
                  <iconset>
-                  <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/aliBonta.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/aliBonta.png</iconset>
+                  <normaloff>classpath:org/JDofusCalc/ressources/images/aliBonta.png</normaloff>classpath:org/JDofusCalc/ressources/images/aliBonta.png</iconset>
                 </property>
                 <property name="checked">
                  <bool>true</bool>
@@ -414,7 +414,7 @@
                 </property>
                 <property name="icon">
                  <iconset>
-                  <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/aliBrak.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/aliBrak.png</iconset>
+                  <normaloff>classpath:org/JDofusCalc/ressources/images/aliBrak.png</normaloff>classpath:org/JDofusCalc/ressources/images/aliBrak.png</iconset>
                 </property>
                </widget>
               </item>
@@ -431,7 +431,7 @@
                 </property>
                 <property name="icon">
                  <iconset>
-                  <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/aliMerc.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/aliMerc.png</iconset>
+                  <normaloff>classpath:org/JDofusCalc/ressources/images/aliMerc.png</normaloff>classpath:org/JDofusCalc/ressources/images/aliMerc.png</iconset>
                 </property>
                </widget>
               </item>
@@ -940,7 +940,7 @@ p, li { white-space: pre-wrap; }
                 </property>
                 <property name="icon">
                  <iconset>
-                  <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filenew.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filenew.png</iconset>
+                  <normaloff>classpath:org/JDofusCalc/ressources/images/filenew.png</normaloff>classpath:org/JDofusCalc/ressources/images/filenew.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -966,7 +966,7 @@ p, li { white-space: pre-wrap; }
                 </property>
                 <property name="icon">
                  <iconset>
-                  <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png</iconset>
+                  <normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -992,7 +992,7 @@ p, li { white-space: pre-wrap; }
                 </property>
                 <property name="icon">
                  <iconset>
-                  <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/fileopen.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/fileopen.png</iconset>
+                  <normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -1021,13 +1021,13 @@ p, li { white-space: pre-wrap; }
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>883</width>
-                <height>349</height>
+                <width>100</width>
+                <height>30</height>
                </rect>
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_3">
                <item>
-                <widget class="QWidgetTableauObjets" name="tableauObjets"/>
+                <widget class="QWidgetTableauObjets" name="tableauObjets" native="true"/>
                </item>
               </layout>
              </widget>
@@ -1182,7 +1182,7 @@ p, li { white-space: pre-wrap; }
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsNeutre.png</pixmap>
+                    <pixmap>classpath:org/JDofusCalc/ressources/images/degatsNeutre.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1393,7 +1393,7 @@ p, li { white-space: pre-wrap; }
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsTerre.png</pixmap>
+                    <pixmap>classpath:org/JDofusCalc/ressources/images/degatsTerre.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1616,7 +1616,7 @@ p, li { white-space: pre-wrap; }
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsFeu.png</pixmap>
+                    <pixmap>classpath:org/JDofusCalc/ressources/images/degatsFeu.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1839,7 +1839,7 @@ p, li { white-space: pre-wrap; }
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsEau.png</pixmap>
+                    <pixmap>classpath:org/JDofusCalc/ressources/images/degatsEau.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2062,7 +2062,7 @@ p, li { white-space: pre-wrap; }
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsAir.png</pixmap>
+                    <pixmap>classpath:org/JDofusCalc/ressources/images/degatsAir.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2276,7 +2276,7 @@ p, li { white-space: pre-wrap; }
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/soins.png</pixmap>
+                    <pixmap>classpath:org/JDofusCalc/ressources/images/soins.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2524,7 +2524,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/icoEchec.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/icoEchec.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2629,7 +2629,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/icoCritique.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/icoCritique.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2734,7 +2734,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pa.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/pa.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2903,28 +2903,28 @@ p, li { white-space: pre-wrap; }
               <item row="2" column="3">
                <widget class="QLabel" name="imgBaguette">
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/baguette.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/baguette.png</pixmap>
                 </property>
                </widget>
               </item>
               <item row="3" column="3">
                <widget class="QLabel" name="imgBaton">
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/baton.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/baton.png</pixmap>
                 </property>
                </widget>
               </item>
               <item row="5" column="3">
                <widget class="QLabel" name="imgDague">
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/dague.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/dague.png</pixmap>
                 </property>
                </widget>
               </item>
               <item row="1" column="3">
                <widget class="QLabel" name="imgArc">
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/arc.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/arc.png</pixmap>
                 </property>
                </widget>
               </item>
@@ -2948,14 +2948,14 @@ p, li { white-space: pre-wrap; }
               <item row="1" column="7">
                <widget class="QLabel" name="imgEpee">
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/epee.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/epee.png</pixmap>
                 </property>
                </widget>
               </item>
               <item row="2" column="7">
                <widget class="QLabel" name="imgHache">
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/hache.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/hache.png</pixmap>
                 </property>
                </widget>
               </item>
@@ -3013,14 +3013,14 @@ p, li { white-space: pre-wrap; }
               <item row="5" column="7">
                <widget class="QLabel" name="imgPelle">
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pelle.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/pelle.png</pixmap>
                 </property>
                </widget>
               </item>
               <item row="3" column="7">
                <widget class="QLabel" name="imgMarteau">
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/marteau.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/marteau.png</pixmap>
                 </property>
                </widget>
               </item>
@@ -3070,7 +3070,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/force.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/force.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3132,7 +3132,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pp.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/pp.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3194,7 +3194,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/dommages.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/dommages.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3259,7 +3259,7 @@ p, li { white-space: pre-wrap; }
                  <string notr="true">background-color: rgb(255, 255, 255);</string>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/soins.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/soins.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3318,7 +3318,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/intelligence.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/intelligence.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3380,7 +3380,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/sagesse.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/sagesse.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3442,7 +3442,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pdommages.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/pdommages.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3504,7 +3504,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/critique.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/critique.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3566,7 +3566,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/chance.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/chance.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3628,7 +3628,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/agilite.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/agilite.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3690,7 +3690,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/dommages_physiques.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/dommages_physiques.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3755,7 +3755,7 @@ p, li { white-space: pre-wrap; }
                  <string notr="true">background-color: rgb(255, 255, 255);</string>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pa.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/pa.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3829,7 +3829,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resMagique.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/resMagique.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3863,7 +3863,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resPhysique.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/resPhysique.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3897,7 +3897,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResNeutre.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/PResNeutre.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -3931,7 +3931,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResFeu.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/PResFeu.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4065,7 +4065,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resNeutre.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/resNeutre.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4121,7 +4121,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resTerre.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/resTerre.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4177,7 +4177,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResTerre.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/PResTerre.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4239,7 +4239,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resFeu.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/resFeu.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4295,7 +4295,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resEau.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/resEau.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4329,7 +4329,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResEau.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/PResEau.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4363,7 +4363,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResAir.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/PResAir.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4397,7 +4397,7 @@ p, li { white-space: pre-wrap; }
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resAir.png</pixmap>
+                 <pixmap>classpath:org/JDofusCalc/ressources/images/resAir.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4667,7 +4667,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsNeutre.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/degatsNeutre.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -4891,7 +4891,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsTerre.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/degatsTerre.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -5114,7 +5114,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsFeu.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/degatsFeu.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -5337,7 +5337,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsEau.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/degatsEau.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -5560,7 +5560,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/degatsAir.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/degatsAir.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -5783,7 +5783,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/volvie.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/volvie.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -5997,7 +5997,7 @@ p, li { white-space: pre-wrap; }
                        <string/>
                       </property>
                       <property name="pixmap">
-                       <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/soins.png</pixmap>
+                       <pixmap>classpath:org/JDofusCalc/ressources/images/soins.png</pixmap>
                       </property>
                       <property name="alignment">
                        <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -6232,7 +6232,7 @@ p, li { white-space: pre-wrap; }
                           <string/>
                          </property>
                          <property name="pixmap">
-                          <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/icoEchec.png</pixmap>
+                          <pixmap>classpath:org/JDofusCalc/ressources/images/icoEchec.png</pixmap>
                          </property>
                          <property name="alignment">
                           <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -6337,7 +6337,7 @@ p, li { white-space: pre-wrap; }
                           <string/>
                          </property>
                          <property name="pixmap">
-                          <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/icoCritique.png</pixmap>
+                          <pixmap>classpath:org/JDofusCalc/ressources/images/icoCritique.png</pixmap>
                          </property>
                          <property name="alignment">
                           <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -6492,7 +6492,7 @@ p, li { white-space: pre-wrap; }
                           <string/>
                          </property>
                          <property name="pixmap">
-                          <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pa.png</pixmap>
+                          <pixmap>classpath:org/JDofusCalc/ressources/images/pa.png</pixmap>
                          </property>
                          <property name="alignment">
                           <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -6571,7 +6571,7 @@ p, li { white-space: pre-wrap; }
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/advanced.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/advanced.png</iconset>
+                     <normaloff>classpath:org/JDofusCalc/ressources/images/advanced.png</normaloff>classpath:org/JDofusCalc/ressources/images/advanced.png</iconset>
                    </property>
                    <property name="iconSize">
                     <size>
@@ -6807,7 +6807,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pa.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/pa.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -6838,7 +6838,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pm.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/pm.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -6869,7 +6869,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/po.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/po.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -6900,7 +6900,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/ini.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/ini.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -6931,7 +6931,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pp.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/pp.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7114,7 +7114,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/vie.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/vie.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7212,7 +7212,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/sagesse.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/sagesse.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7249,7 +7249,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/chance.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/chance.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7406,7 +7406,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/force.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/force.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7483,7 +7483,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/intelligence.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/intelligence.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7560,7 +7560,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/agilite.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/agilite.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7591,7 +7591,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/vita.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/vita.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7680,7 +7680,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/invoc.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/invoc.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7711,7 +7711,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/echecs_critiques.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/echecs_critiques.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7770,7 +7770,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/renvois.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/renvois.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7885,7 +7885,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/soins.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/soins.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -7944,7 +7944,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/piege.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/piege.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8003,7 +8003,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/ppiege.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/ppiege.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8090,7 +8090,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/dommages.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/dommages.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8121,7 +8121,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/critique.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/critique.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8152,7 +8152,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pdommages.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/pdommages.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8303,7 +8303,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResPA.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/PResPA.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8334,7 +8334,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResPM.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/PResPM.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8399,7 +8399,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resMagique.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/resMagique.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8464,7 +8464,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resPhysique.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/resPhysique.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8529,7 +8529,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resNeutre.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/resNeutre.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8594,7 +8594,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResNeutre.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/PResNeutre.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8659,7 +8659,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resTerre.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/resTerre.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8724,7 +8724,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResTerre.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/PResTerre.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8789,7 +8789,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resFeu.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/resFeu.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8820,7 +8820,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResFeu.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/PResFeu.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8885,7 +8885,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resEau.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/resEau.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8950,7 +8950,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResEau.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/PResEau.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -8981,7 +8981,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resAir.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/resAir.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -9046,7 +9046,7 @@ p, li { white-space: pre-wrap; }
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResAir.png</pixmap>
+             <pixmap>classpath:org/JDofusCalc/ressources/images/PResAir.png</pixmap>
             </property>
             <property name="alignment">
              <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -9244,7 +9244,7 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/fileopen.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/fileopen.png</iconset>
+              <normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -9273,7 +9273,7 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filenew.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filenew.png</iconset>
+              <normaloff>classpath:org/JDofusCalc/ressources/images/filenew.png</normaloff>classpath:org/JDofusCalc/ressources/images/filenew.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -9305,7 +9305,7 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png</iconset>
+              <normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -9364,6 +9364,9 @@ p, li { white-space: pre-wrap; }
     <addaction name="actionBonusPanoplies"/>
    </widget>
    <widget class="QMenu" name="menuOptions">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="title">
      <string>Options</string>
     </property>
@@ -9466,13 +9469,6 @@ p, li { white-space: pre-wrap; }
    </property>
   </action>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>QWidgetTableauObjets</class>
-   <extends></extends>
-   <header>org.JDofusCalc.vues.Qt.composants</header>
-  </customwidget>
- </customwidgets>
  <tabstops>
   <tabstop>onglets</tabstop>
   <tabstop>txtNom</tabstop>
@@ -9604,4 +9600,11 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
  </connections>
+ <customwidgets>
+   <customwidget>
+   <class>QWidgetTableauObjets</class>
+   <extends></extends>
+   <header>org.JDofusCalc.vues.Qt.composants</header>
+  </customwidget>
+ </customwidgets>
 </ui>

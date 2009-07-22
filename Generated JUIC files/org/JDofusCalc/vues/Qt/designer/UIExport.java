@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'UIExport.jui'
 **
-** Created: mar. 7. juil. 16:46:03 2009
+** Created: mer. 22. juil. 00:13:47 2009
 **      by: Qt User Interface Compiler version 4.5.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
@@ -114,14 +114,14 @@ public class UIExport implements com.trolltech.qt.QUiForm<QWidget>
 
         btnExport = new QPushButton(UIExport);
         btnExport.setObjectName("btnExport");
-        btnExport.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/up.png")));
+        btnExport.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/up.png")));
         btnExport.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnExport, 2, 1, 1, 1);
 
         btnFermer = new QPushButton(UIExport);
         btnFermer.setObjectName("btnFermer");
-        btnFermer.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png")));
+        btnFermer.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/exit.png")));
         btnFermer.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnFermer, 2, 2, 1, 1);

@@ -112,7 +112,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/up.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/up.png</iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/up.png</normaloff>classpath:org/JDofusCalc/ressources/images/up.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -129,7 +129,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png</iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</iconset>
      </property>
      <property name="iconSize">
       <size>

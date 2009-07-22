@@ -172,6 +172,9 @@ public abstract class AFile
 		ArrayList<String> listeCheminsDossiers = AFile.getArbreDossiers(source, "");
 		for(String cheminDossier : listeCheminsDossiers)
 		{
+			if(cheminDossier.contains(".svn"))
+				continue;
+			
 			File dossier = new File(destination + File.separator + source.getName() + cheminDossier);
 			dossier.mkdirs();
 		}
@@ -179,6 +182,9 @@ public abstract class AFile
 		ArrayList<String> listeCheminsFichiers = AFile.getListe(source, "");
 		for(String cheminFichier : listeCheminsFichiers)
 		{
+			if(cheminFichier.contains(".svn"))
+				continue;
+			
 			File fichier = new File(source + cheminFichier);
 			AFile.copierFichier(fichier, new File(destination + File.separator + source.getName() + cheminFichier).getParent());
 		}

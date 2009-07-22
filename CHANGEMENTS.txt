@@ -11,7 +11,7 @@ Légende :
 [0.6.2000]
 	BETA
 
-Date : ? juin 2009
+Date : 22 juillet 2009
 
 /¤\ JDofusCalc :
 
@@ -31,6 +31,7 @@ Date : ? juin 2009
 * Correction des valeurs des potions de forgemagie élémentaire.
 * Un problème de chargement des CàC entraînait le blocage du chargement de celui-ci et des animaux.
 * Le chargement d'un personnage féminin affiche correctement le nouvel avatar.
+* Prise en compte des boost de coups critiques dans les simulations.
 
 - Désactivation temporaire du module de mise à jour automatique.
 
@@ -40,6 +41,9 @@ Date : ? juin 2009
 
 * Division du sort "Boomerang perfide" en quatre.
 * La vie de base des 12 classes passe à 50 suite à la mise à jour du 09/06/09.
+* Correction du coût en PA du sort "Vague à Lame" au niveau 6 de la classe Pandawa.
+* Correction du coût en PA du sort "Attaque Naturelle" au niveau 6 de la classe Féca.
+* Correction des dégâts en coups critiques du sort "Frappe du Craqueleur" de la classe Osamodas.
 
 /¤\ APIs :
 

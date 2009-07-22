@@ -1,3 +1,7 @@
 Manifest-Version: 1.0
+Class-Path: bibliotheques/qtjambi.jar bibliotheques/qtjambi-plateforme
+ .jar bibliotheques/jdom.jar  bibliotheques/h2.jar bibliotheques/log4j
+ .jar
+Created-By: 1.5.0 (Sun Microsystems Inc.)
 Main-Class: org/JDofusCalc/Main
-Class-Path: bibliotheques/qtjambi.jar bibliotheques/qtjambi-plateforme.jar bibliotheques/jdom.jar  bibliotheques/h2.jar bibliotheques/log4j.jar
+

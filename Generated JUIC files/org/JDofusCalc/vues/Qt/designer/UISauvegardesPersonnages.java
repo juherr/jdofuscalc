@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'UISauvegardesPersonnages.jui'
 **
-** Created: mer. 24. juin 12:11:35 2009
+** Created: mer. 22. juil. 00:15:01 2009
 **      by: Qt User Interface Compiler version 4.5.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
@@ -52,7 +52,7 @@ public class UISauvegardesPersonnages implements com.trolltech.qt.QUiForm<QWidge
         btnCharger = new QPushButton(UISauvegardesPersonnages);
         btnCharger.setObjectName("btnCharger");
         btnCharger.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnCharger.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/fileopen.png")));
+        btnCharger.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/fileopen.png")));
         btnCharger.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnCharger, 0, 1, 1, 1);
@@ -60,7 +60,7 @@ public class UISauvegardesPersonnages implements com.trolltech.qt.QUiForm<QWidge
         btnSupp = new QPushButton(UISauvegardesPersonnages);
         btnSupp.setObjectName("btnSupp");
         btnSupp.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnSupp.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/edit_remove.png")));
+        btnSupp.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/edit_remove.png")));
         btnSupp.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnSupp, 2, 1, 1, 1);
@@ -68,7 +68,7 @@ public class UISauvegardesPersonnages implements com.trolltech.qt.QUiForm<QWidge
         btnRenommer = new QPushButton(UISauvegardesPersonnages);
         btnRenommer.setObjectName("btnRenommer");
         btnRenommer.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnRenommer.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/editclear.png")));
+        btnRenommer.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/editclear.png")));
         btnRenommer.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnRenommer, 3, 1, 1, 1);
@@ -76,7 +76,7 @@ public class UISauvegardesPersonnages implements com.trolltech.qt.QUiForm<QWidge
         btnFermer = new QPushButton(UISauvegardesPersonnages);
         btnFermer.setObjectName("btnFermer");
         btnFermer.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnFermer.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png")));
+        btnFermer.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/exit.png")));
         btnFermer.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnFermer, 6, 1, 1, 1);
@@ -145,7 +145,7 @@ public class UISauvegardesPersonnages implements com.trolltech.qt.QUiForm<QWidge
         btnSauvegarder = new QPushButton(UISauvegardesPersonnages);
         btnSauvegarder.setObjectName("btnSauvegarder");
         btnSauvegarder.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnSauvegarder.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png")));
+        btnSauvegarder.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/filesave.png")));
         btnSauvegarder.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnSauvegarder, 1, 1, 1, 1);

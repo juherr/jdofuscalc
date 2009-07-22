@@ -31,7 +31,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png</iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -51,7 +51,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/fileopen.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/fileopen.png</iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -71,7 +71,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/editclear.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/editclear.png</iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/editclear.png</normaloff>classpath:org/JDofusCalc/ressources/images/editclear.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -91,7 +91,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/edit_remove.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/edit_remove.png</iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/edit_remove.png</normaloff>classpath:org/JDofusCalc/ressources/images/edit_remove.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -111,7 +111,7 @@
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png</iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</iconset>
      </property>
      <property name="iconSize">
       <size>

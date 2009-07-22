@@ -95,7 +95,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filenew.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filenew.png</iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/filenew.png</normaloff>classpath:org/JDofusCalc/ressources/images/filenew.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -124,7 +124,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/edit_remove.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/edit_remove.png</iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/edit_remove.png</normaloff>classpath:org/JDofusCalc/ressources/images/edit_remove.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -160,7 +160,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png</iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -180,7 +180,7 @@
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png</iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -330,7 +330,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pa.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/pa.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -367,7 +367,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pm.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/pm.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -404,7 +404,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/po.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/po.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -441,7 +441,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/ini.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/ini.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -478,7 +478,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pp.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/pp.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -515,7 +515,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/vie.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/vie.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -873,7 +873,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pdommages.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/pdommages.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -910,7 +910,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/invoc.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/invoc.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -947,7 +947,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/critique.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/critique.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -984,7 +984,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/soins.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/soins.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1021,7 +1021,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/piege.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/piege.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1058,7 +1058,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/ppiege.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/ppiege.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1095,7 +1095,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/echecs_critiques.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/echecs_critiques.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1132,7 +1132,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/renvois.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/renvois.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1169,7 +1169,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/dommages.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/dommages.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1638,7 +1638,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resMagique.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/resMagique.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1675,7 +1675,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resPhysique.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/resPhysique.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1712,7 +1712,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resNeutre.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/resNeutre.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1749,7 +1749,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResNeutre.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/PResNeutre.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1786,7 +1786,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resTerre.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/resTerre.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1823,7 +1823,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResTerre.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/PResTerre.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1860,7 +1860,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resFeu.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/resFeu.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1897,7 +1897,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResFeu.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/PResFeu.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1934,7 +1934,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resEau.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/resEau.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -1971,7 +1971,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResEau.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/PResEau.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2008,7 +2008,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resAir.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/resAir.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2045,7 +2045,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResAir.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/PResAir.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2631,7 +2631,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/sagesse.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/sagesse.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2668,7 +2668,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/chance.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/chance.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2705,7 +2705,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/force.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/force.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2742,7 +2742,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/intelligence.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/intelligence.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2779,7 +2779,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/agilite.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/agilite.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
@@ -2816,7 +2816,7 @@
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/vita.png</pixmap>
+                  <pixmap>classpath:org/JDofusCalc/ressources/images/vita.png</pixmap>
                  </property>
                  <property name="alignment">
                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>

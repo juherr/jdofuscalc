@@ -47,12 +47,16 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
+import java.util.jar.JarOutputStream;
+import java.util.jar.Manifest;
 
+import org.apache.commons.compress.archivers.jar.JarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveOutputStream;
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry;
@@ -71,10 +75,12 @@ import fr.ayapap.ASQL;
  */
 public class Builder
 {
-	private final static String LAST_VERSION = "0.6.1000";
-	private final static String VERSION = "0.6.1100";
+	private final static String PREVIOUS_VERSION = "0.6.1000";
+	private final static String VERSION = "0.6.2000";
 	private final static String NOM_APP = "JDofusCalc";
 	private final static int TAILLE_MAX_BUFFER = 1024;
+	//private final static String CHEMIN_PROJET = "C:\\Documents and Settings\\sacha\\My Documents\\Java\\Projets\\JDofusCalc\\";
+	private final static String CHEMIN_PROJET = "F:\\Mes documents\\Java\\Mes projets\\JDofusCalc\\";
 
 	/**
 	 * @param args
@@ -107,13 +113,47 @@ public class Builder
 		new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "JDofusCalc.jar").delete();
 
 		// Core
-		AFile.copierDossier(new File("bin" + File.separator + "org"), "outils" + File.separator + "jars" + File.separator + "core");
 		AFile.copierDossier(new File("bin" + File.separator + "fr"), "outils" + File.separator + "jars" + File.separator + "core");
+		AFile.copierDossier(new File("bin" + File.separator + "org"), "outils" + File.separator + "jars" + File.separator + "core");
 		AFile.supprimerDossier(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "org" + File.separator + "JDofusCalc"+ File.separator + "lanceur"));
 		AFile.supprimerDossier(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "org" + File.separator + "JDofusCalc"+ File.separator + "outils"));
+		
 		try
 		{
-			Process processCore = Runtime.getRuntime().exec("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Projets\\JDofusCalc\\outils\\jars\\core\\build_core.bat", new String[0], new File("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Projets\\JDofusCalc\\outils\\jars\\core\\"));
+			JarOutputStream jarOutput = new JarOutputStream(new BufferedOutputStream(new FileOutputStream(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "core.jar"))), new Manifest(new FileInputStream(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "META-INF" + File.separator + "MANIFEST.MF"))));
+			byte data[] = new byte[TAILLE_MAX_BUFFER];
+			ArrayList<String> nomsfichiers = this.getListe(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "org"), "org");
+			nomsfichiers.addAll(this.getListe(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "fr"), "fr"));
+			for(String nomfichier : nomsfichiers)
+			{
+				//System.out.println(nomfichier);
+				File fichierAZiper = new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + nomfichier);
+				BufferedInputStream input = new BufferedInputStream(new FileInputStream(fichierAZiper), TAILLE_MAX_BUFFER);
+				if(nomfichier.charAt(0) == File.separatorChar)
+					nomfichier = nomfichier.substring(1, nomfichier.length());
+				JarArchiveEntry entry = new JarArchiveEntry(new ZipArchiveEntry(fichierAZiper, nomfichier));
+				jarOutput.putNextEntry(entry);
+				int count;
+				while((count = input.read(data, 0, TAILLE_MAX_BUFFER)) != -1)
+				{
+					jarOutput.write(data, 0, count);
+				}
+				jarOutput.closeEntry();
+				input.close();
+			}
+			
+			jarOutput.close();
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+
+		/*System.exit(0);
+		
+		try
+		{
+			Process processCore = Runtime.getRuntime().exec(CHEMIN_PROJET + "outils\\jars\\core\\build_core.bat", new String[0], new File(CHEMIN_PROJET + "outils\\jars\\core\\"));
 			processCore.getInputStream().close();
 			processCore.waitFor();
 		}
@@ -124,7 +164,7 @@ public class Builder
 		catch(InterruptedException e)
 		{
 			e.printStackTrace();
-		}
+		}*/
 		System.out.println("\tcore.jar terminé.");
 		
 		// Lanceur
@@ -182,9 +222,42 @@ public class Builder
 				e1.printStackTrace();
 			}
 		}
+		
 		try
 		{
-			Process processLanceur = Runtime.getRuntime().exec("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Projets\\JDofusCalc\\outils\\jars\\lanceur\\build_lanceur.bat", new String[0], new File("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Projets\\JDofusCalc\\outils\\jars\\lanceur\\"));
+			JarOutputStream jarOutput = new JarOutputStream(new BufferedOutputStream(new FileOutputStream(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "JDofusCalc.jar"))), new Manifest(new FileInputStream(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "META-INF" + File.separator + "MANIFEST.MF"))));
+			byte data[] = new byte[TAILLE_MAX_BUFFER];
+			ArrayList<String> nomsfichiers = this.getListe(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "org"), "org");
+			nomsfichiers.addAll(this.getListe(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "fr"), "fr"));
+			for(String nomfichier : nomsfichiers)
+			{
+				//System.out.println(nomfichier);
+				File fichierAZiper = new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + nomfichier);
+				BufferedInputStream input = new BufferedInputStream(new FileInputStream(fichierAZiper), TAILLE_MAX_BUFFER);
+				if(nomfichier.charAt(0) == File.separatorChar)
+					nomfichier = nomfichier.substring(1, nomfichier.length());
+				JarArchiveEntry entry = new JarArchiveEntry(new ZipArchiveEntry(fichierAZiper, nomfichier));
+				jarOutput.putNextEntry(entry);
+				int count;
+				while((count = input.read(data, 0, TAILLE_MAX_BUFFER)) != -1)
+				{
+					jarOutput.write(data, 0, count);
+				}
+				jarOutput.closeEntry();
+				input.close();
+			}
+			
+			jarOutput.close();
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		
+		/*
+		try
+		{
+			Process processLanceur = Runtime.getRuntime().exec(CHEMIN_PROJET + "outils\\jars\\lanceur\\build_lanceur.bat", new String[0], new File(CHEMIN_PROJET + "outils\\jars\\lanceur\\"));
 			processLanceur.getInputStream().close();
 			processLanceur.waitFor();
 		}
@@ -195,10 +268,10 @@ public class Builder
 		catch(InterruptedException e)
 		{
 			e.printStackTrace();
-		}
+		}*/
 		System.out.println("\tJDofusCalc.jar terminé.");
 		
-		//System.exit(0);
+		System.exit(0);
 		
 		System.out.println("Création de l'arbre des dossiers.");
 		
@@ -377,7 +450,7 @@ public class Builder
 		HashMap<String, File> dossiersToZip = new HashMap<String, File>();
 		dossiersToZip.put("JDofusCalc-" + VERSION + "-win32.zip", dossierWindows32);
 		dossiersToZip.put("JDofusCalc-" + VERSION + "-win64.zip", dossierWindows64);
-		dossiersToZip.put("patch-" + LAST_VERSION + "_" + VERSION + "-all.zip", dossierPatch);
+		dossiersToZip.put("patch-" + PREVIOUS_VERSION + "_" + VERSION + "-all.zip", dossierPatch);
 		for(Entry<String, File> dossierToZip : dossiersToZip.entrySet())
 		{
 			try

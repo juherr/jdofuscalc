@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'UIBonusPanoplies.jui'
 **
-** Created: mer. 24. juin 12:04:03 2009
+** Created: mer. 22. juil. 00:13:47 2009
 **      by: Qt User Interface Compiler version 4.5.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
@@ -168,7 +168,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPA.setMinimumSize(new QSize(20, 25));
         lblStatsPA.setMaximumSize(new QSize(20, 16777215));
         lblStatsPA.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPA.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pa.png")));
+        lblStatsPA.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/pa.png")));
         lblStatsPA.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_2.addWidget(lblStatsPA, 0, 1, 1, 1);
@@ -183,7 +183,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPM.setMinimumSize(new QSize(20, 25));
         lblStatsPM.setMaximumSize(new QSize(20, 16777215));
         lblStatsPM.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPM.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pm.png")));
+        lblStatsPM.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/pm.png")));
         lblStatsPM.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_2.addWidget(lblStatsPM, 0, 2, 1, 1);
@@ -198,7 +198,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPO.setMinimumSize(new QSize(20, 25));
         lblStatsPO.setMaximumSize(new QSize(20, 16777215));
         lblStatsPO.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPO.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/po.png")));
+        lblStatsPO.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/po.png")));
         lblStatsPO.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_2.addWidget(lblStatsPO, 0, 3, 1, 1);
@@ -213,7 +213,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsIni.setMinimumSize(new QSize(30, 25));
         lblStatsIni.setMaximumSize(new QSize(30, 16777215));
         lblStatsIni.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsIni.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/ini.png")));
+        lblStatsIni.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/ini.png")));
         lblStatsIni.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_2.addWidget(lblStatsIni, 0, 4, 1, 1);
@@ -228,7 +228,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPP.setMinimumSize(new QSize(20, 25));
         lblStatsPP.setMaximumSize(new QSize(20, 16777215));
         lblStatsPP.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPP.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pp.png")));
+        lblStatsPP.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/pp.png")));
         lblStatsPP.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_2.addWidget(lblStatsPP, 0, 5, 1, 1);
@@ -243,7 +243,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsVie.setMinimumSize(new QSize(30, 25));
         lblStatsVie.setMaximumSize(new QSize(30, 16777215));
         lblStatsVie.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsVie.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/vie.png")));
+        lblStatsVie.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/vie.png")));
         lblStatsVie.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_2.addWidget(lblStatsVie, 0, 0, 1, 1);
@@ -278,7 +278,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsSag.setMinimumSize(new QSize(25, 25));
         lblStatsSag.setMaximumSize(new QSize(25, 25));
         lblStatsSag.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsSag.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/sagesse.png")));
+        lblStatsSag.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/sagesse.png")));
         lblStatsSag.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_3.addWidget(lblStatsSag, 0, 1, 1, 1);
@@ -293,7 +293,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsChance.setMinimumSize(new QSize(25, 25));
         lblStatsChance.setMaximumSize(new QSize(25, 25));
         lblStatsChance.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsChance.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/chance.png")));
+        lblStatsChance.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/chance.png")));
         lblStatsChance.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_3.addWidget(lblStatsChance, 0, 4, 1, 1);
@@ -308,7 +308,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsForce.setMinimumSize(new QSize(25, 25));
         lblStatsForce.setMaximumSize(new QSize(25, 25));
         lblStatsForce.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsForce.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/force.png")));
+        lblStatsForce.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/force.png")));
         lblStatsForce.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_3.addWidget(lblStatsForce, 0, 2, 1, 1);
@@ -323,7 +323,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsInt.setMinimumSize(new QSize(25, 25));
         lblStatsInt.setMaximumSize(new QSize(25, 25));
         lblStatsInt.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsInt.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/intelligence.png")));
+        lblStatsInt.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/intelligence.png")));
         lblStatsInt.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_3.addWidget(lblStatsInt, 0, 3, 1, 1);
@@ -338,7 +338,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsAgi.setMinimumSize(new QSize(25, 25));
         lblStatsAgi.setMaximumSize(new QSize(25, 25));
         lblStatsAgi.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsAgi.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/agilite.png")));
+        lblStatsAgi.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/agilite.png")));
         lblStatsAgi.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_3.addWidget(lblStatsAgi, 0, 5, 1, 1);
@@ -353,7 +353,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsVita.setMinimumSize(new QSize(30, 25));
         lblStatsVita.setMaximumSize(new QSize(30, 16777215));
         lblStatsVita.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsVita.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/vita.png")));
+        lblStatsVita.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/vita.png")));
         lblStatsVita.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_3.addWidget(lblStatsVita, 0, 0, 1, 1);
@@ -388,7 +388,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPDom.setMinimumSize(new QSize(20, 25));
         lblStatsPDom.setMaximumSize(new QSize(20, 16777215));
         lblStatsPDom.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPDom.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/pdommages.png")));
+        lblStatsPDom.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/pdommages.png")));
         lblStatsPDom.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsPDom, 0, 1, 1, 1);
@@ -403,7 +403,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsInvoc.setMinimumSize(new QSize(20, 25));
         lblStatsInvoc.setMaximumSize(new QSize(20, 16777215));
         lblStatsInvoc.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsInvoc.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/invoc.png")));
+        lblStatsInvoc.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/invoc.png")));
         lblStatsInvoc.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsInvoc, 0, 4, 1, 1);
@@ -418,7 +418,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsCC.setMinimumSize(new QSize(20, 25));
         lblStatsCC.setMaximumSize(new QSize(20, 16777215));
         lblStatsCC.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsCC.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/critique.png")));
+        lblStatsCC.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/critique.png")));
         lblStatsCC.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsCC, 0, 2, 1, 1);
@@ -433,7 +433,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsSoin.setMinimumSize(new QSize(20, 25));
         lblStatsSoin.setMaximumSize(new QSize(20, 16777215));
         lblStatsSoin.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsSoin.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/soins.png")));
+        lblStatsSoin.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/soins.png")));
         lblStatsSoin.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsSoin, 0, 3, 1, 1);
@@ -448,7 +448,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsDomPiege.setMinimumSize(new QSize(20, 25));
         lblStatsDomPiege.setMaximumSize(new QSize(20, 16777215));
         lblStatsDomPiege.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsDomPiege.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/piege.png")));
+        lblStatsDomPiege.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/piege.png")));
         lblStatsDomPiege.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsDomPiege, 0, 5, 1, 1);
@@ -463,7 +463,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPDomPiege.setMinimumSize(new QSize(20, 25));
         lblStatsPDomPiege.setMaximumSize(new QSize(20, 16777215));
         lblStatsPDomPiege.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPDomPiege.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/ppiege.png")));
+        lblStatsPDomPiege.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/ppiege.png")));
         lblStatsPDomPiege.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsPDomPiege, 0, 6, 1, 1);
@@ -478,7 +478,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsEC.setMinimumSize(new QSize(20, 25));
         lblStatsEC.setMaximumSize(new QSize(20, 16777215));
         lblStatsEC.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsEC.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/echecs_critiques.png")));
+        lblStatsEC.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/echecs_critiques.png")));
         lblStatsEC.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsEC, 0, 7, 1, 1);
@@ -493,7 +493,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsRenvois.setMinimumSize(new QSize(20, 25));
         lblStatsRenvois.setMaximumSize(new QSize(20, 16777215));
         lblStatsRenvois.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsRenvois.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/renvois.png")));
+        lblStatsRenvois.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/renvois.png")));
         lblStatsRenvois.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsRenvois, 0, 8, 1, 1);
@@ -508,7 +508,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsDom.setMinimumSize(new QSize(20, 25));
         lblStatsDom.setMaximumSize(new QSize(20, 16777215));
         lblStatsDom.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsDom.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/dommages.png")));
+        lblStatsDom.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/dommages.png")));
         lblStatsDom.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_5.addWidget(lblStatsDom, 0, 0, 1, 1);
@@ -544,7 +544,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsResMagique.setMinimumSize(new QSize(20, 25));
         lblStatsResMagique.setMaximumSize(new QSize(20, 25));
         lblStatsResMagique.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsResMagique.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resMagique.png")));
+        lblStatsResMagique.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/resMagique.png")));
         lblStatsResMagique.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsResMagique, 0, 0, 1, 1);
@@ -559,7 +559,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsResPhysique.setMinimumSize(new QSize(20, 25));
         lblStatsResPhysique.setMaximumSize(new QSize(20, 25));
         lblStatsResPhysique.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsResPhysique.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resPhysique.png")));
+        lblStatsResPhysique.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/resPhysique.png")));
         lblStatsResPhysique.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsResPhysique, 0, 1, 1, 1);
@@ -574,7 +574,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsResNeutre.setMinimumSize(new QSize(20, 25));
         lblStatsResNeutre.setMaximumSize(new QSize(20, 25));
         lblStatsResNeutre.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsResNeutre.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resNeutre.png")));
+        lblStatsResNeutre.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/resNeutre.png")));
         lblStatsResNeutre.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsResNeutre, 0, 2, 1, 1);
@@ -589,7 +589,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPResNeutre.setMinimumSize(new QSize(20, 25));
         lblStatsPResNeutre.setMaximumSize(new QSize(20, 25));
         lblStatsPResNeutre.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPResNeutre.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResNeutre.png")));
+        lblStatsPResNeutre.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/PResNeutre.png")));
         lblStatsPResNeutre.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsPResNeutre, 0, 3, 1, 1);
@@ -604,7 +604,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsResTerre.setMinimumSize(new QSize(20, 25));
         lblStatsResTerre.setMaximumSize(new QSize(20, 25));
         lblStatsResTerre.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsResTerre.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resTerre.png")));
+        lblStatsResTerre.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/resTerre.png")));
         lblStatsResTerre.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsResTerre, 0, 4, 1, 1);
@@ -619,7 +619,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPResTerre.setMinimumSize(new QSize(20, 25));
         lblStatsPResTerre.setMaximumSize(new QSize(20, 25));
         lblStatsPResTerre.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPResTerre.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResTerre.png")));
+        lblStatsPResTerre.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/PResTerre.png")));
         lblStatsPResTerre.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsPResTerre, 0, 5, 1, 1);
@@ -634,7 +634,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsResFeu.setMinimumSize(new QSize(20, 25));
         lblStatsResFeu.setMaximumSize(new QSize(20, 25));
         lblStatsResFeu.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsResFeu.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resFeu.png")));
+        lblStatsResFeu.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/resFeu.png")));
         lblStatsResFeu.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsResFeu, 0, 6, 1, 1);
@@ -649,7 +649,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPResFeu.setMinimumSize(new QSize(20, 25));
         lblStatsPResFeu.setMaximumSize(new QSize(20, 25));
         lblStatsPResFeu.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPResFeu.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResFeu.png")));
+        lblStatsPResFeu.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/PResFeu.png")));
         lblStatsPResFeu.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsPResFeu, 0, 7, 1, 1);
@@ -664,7 +664,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsResEau.setMinimumSize(new QSize(20, 25));
         lblStatsResEau.setMaximumSize(new QSize(20, 25));
         lblStatsResEau.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsResEau.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resEau.png")));
+        lblStatsResEau.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/resEau.png")));
         lblStatsResEau.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsResEau, 0, 8, 1, 1);
@@ -679,7 +679,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPResEau.setMinimumSize(new QSize(20, 25));
         lblStatsPResEau.setMaximumSize(new QSize(20, 25));
         lblStatsPResEau.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPResEau.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResEau.png")));
+        lblStatsPResEau.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/PResEau.png")));
         lblStatsPResEau.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsPResEau, 0, 9, 1, 1);
@@ -694,7 +694,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsResAir.setMinimumSize(new QSize(20, 25));
         lblStatsResAir.setMaximumSize(new QSize(20, 25));
         lblStatsResAir.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsResAir.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/resAir.png")));
+        lblStatsResAir.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/resAir.png")));
         lblStatsResAir.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsResAir, 0, 10, 1, 1);
@@ -709,7 +709,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         lblStatsPResAir.setMinimumSize(new QSize(20, 25));
         lblStatsPResAir.setMaximumSize(new QSize(20, 25));
         lblStatsPResAir.setStyleSheet("background-color: rgb(255, 255, 255);");
-        lblStatsPResAir.setPixmap(new QPixmap(("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/PResAir.png")));
+        lblStatsPResAir.setPixmap(new QPixmap(("classpath:org/JDofusCalc/ressources/images/PResAir.png")));
         lblStatsPResAir.setAlignment(com.trolltech.qt.core.Qt.AlignmentFlag.createQFlags(com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter));
 
         gridLayout_9.addWidget(lblStatsPResAir, 0, 11, 1, 1);
@@ -828,7 +828,7 @@ public class UIBonusPanoplies implements com.trolltech.qt.QUiForm<QWidget>
         btnFermer = new QPushButton(frame2);
         btnFermer.setObjectName("btnFermer");
         btnFermer.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnFermer.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png")));
+        btnFermer.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/exit.png")));
         btnFermer.setIconSize(new QSize(24, 24));
 
         horizontalLayout_2.addWidget(btnFermer);

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'UIGroupeObjets.jui'
 **
-** Created: lun. 20. juil. 22:10:25 2009
+** Created: mer. 22. juil. 00:13:48 2009
 **      by: Qt User Interface Compiler version 4.5.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
@@ -48,7 +48,7 @@ public class UIGroupeObjets implements com.trolltech.qt.QUiForm<QWidget>
         btnSauvegarder = new QPushButton(UIGroupeObjets);
         btnSauvegarder.setObjectName("btnSauvegarder");
         btnSauvegarder.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnSauvegarder.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/filesave.png")));
+        btnSauvegarder.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/filesave.png")));
         btnSauvegarder.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnSauvegarder, 0, 1, 1, 1);
@@ -56,7 +56,7 @@ public class UIGroupeObjets implements com.trolltech.qt.QUiForm<QWidget>
         btnCharger = new QPushButton(UIGroupeObjets);
         btnCharger.setObjectName("btnCharger");
         btnCharger.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnCharger.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/fileopen.png")));
+        btnCharger.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/fileopen.png")));
         btnCharger.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnCharger, 1, 1, 1, 1);
@@ -64,7 +64,7 @@ public class UIGroupeObjets implements com.trolltech.qt.QUiForm<QWidget>
         btnRenommer = new QPushButton(UIGroupeObjets);
         btnRenommer.setObjectName("btnRenommer");
         btnRenommer.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnRenommer.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/editclear.png")));
+        btnRenommer.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/editclear.png")));
         btnRenommer.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnRenommer, 2, 1, 1, 1);
@@ -72,7 +72,7 @@ public class UIGroupeObjets implements com.trolltech.qt.QUiForm<QWidget>
         btnSupprimer = new QPushButton(UIGroupeObjets);
         btnSupprimer.setObjectName("btnSupprimer");
         btnSupprimer.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnSupprimer.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/edit_remove.png")));
+        btnSupprimer.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/edit_remove.png")));
         btnSupprimer.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnSupprimer, 3, 1, 1, 1);
@@ -80,7 +80,7 @@ public class UIGroupeObjets implements com.trolltech.qt.QUiForm<QWidget>
         btnFermer = new QPushButton(UIGroupeObjets);
         btnFermer.setObjectName("btnFermer");
         btnFermer.setFocusPolicy(com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus);
-        btnFermer.setIcon(new QIcon(new QPixmap("classpath:file:F:/Mes documents/Java/Mes projets/JDofusCalc/src#org/JDofusCalc/ressources/images/exit.png")));
+        btnFermer.setIcon(new QIcon(new QPixmap("classpath:org/JDofusCalc/ressources/images/exit.png")));
         btnFermer.setIconSize(new QSize(24, 24));
 
         gridLayout.addWidget(btnFermer, 4, 1, 1, 1);

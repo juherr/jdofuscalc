@@ -362,6 +362,7 @@ public class ModeleCalculateur extends Modele
 		int dommages;
 		int pourcentDommages;
 		int soins;
+		int cc;
 		// Si boost activés
 		if(this.statistiquesBoost != null)
 		{
@@ -372,6 +373,7 @@ public class ModeleCalculateur extends Modele
 			soins = this.statistiquesGlobales.getInt(FlagsTypesEffets.Soins) + this.statistiquesBoost.getInt(FlagsTypesEffets.Soins);
 			dommages = this.statistiquesGlobales.getInt(FlagsTypesEffets.Dommages) + this.statistiquesBoost.getInt(FlagsTypesEffets.Dommages);
 			pourcentDommages = this.statistiquesGlobales.getInt(FlagsTypesEffets.PourcentagesDommages) + this.statistiquesBoost.getInt(FlagsTypesEffets.PourcentagesDommages);
+			cc = this.statistiquesGlobales.getInt(FlagsTypesEffets.CoupsCritiques) + this.statistiquesBoost.getInt(FlagsTypesEffets.CoupsCritiques);
 		}
 		else
 		{
@@ -382,7 +384,7 @@ public class ModeleCalculateur extends Modele
 			soins = this.statistiquesGlobales.getInt(FlagsTypesEffets.Soins);
 			dommages = this.statistiquesGlobales.getInt(FlagsTypesEffets.Dommages);
 			pourcentDommages = this.statistiquesGlobales.getInt(FlagsTypesEffets.PourcentagesDommages);
-
+			cc = this.statistiquesGlobales.getInt(FlagsTypesEffets.CoupsCritiques);
 		}
 
 		int resistanceNeutre = 0;
@@ -670,10 +672,10 @@ public class ModeleCalculateur extends Modele
 		retour.put("Soins Maximum CC", String.valueOf(soinsMaxCC));
 
 		retour.put("PA", String.valueOf(this.sauvegardeArme.getCoutUtilisation()));
-		int cc = this.sauvegardeArme.getCoupsCritiques();
-		if(cc != 0)
+		int probaCc = this.sauvegardeArme.getCoupsCritiques();
+		if(probaCc != 0)
 		{
-			retour.put("CC", String.valueOf(Formules.getCoupsCritiques(cc, agi, this.statistiquesGlobales.getInt(FlagsTypesEffets.CoupsCritiques))));
+			retour.put("CC", "1/" + String.valueOf(Formules.getCoupsCritiques(probaCc, agi, cc)));
 			retour.put("Dégâts CC", String.valueOf(this.sauvegardeArme.getDommagesCoupsCritiques()));
 		}
 		else
@@ -683,7 +685,7 @@ public class ModeleCalculateur extends Modele
 		int ec = this.sauvegardeArme.getEchecsCritiques();
 		if(ec != 0)
 		{
-			retour.put("EC", String.valueOf(ec - this.statistiquesGlobales.getInt(FlagsTypesEffets.EchecsCritiques)));
+			retour.put("EC", "1/" + String.valueOf(ec - this.statistiquesGlobales.getInt(FlagsTypesEffets.EchecsCritiques)));
 		}
 		else
 		{
@@ -725,6 +727,7 @@ public class ModeleCalculateur extends Modele
 		int dommages;
 		int pourcentDommages;
 		int soins;
+		int cc;
 		// Si boost activés
 		if(this.statistiquesBoost != null)
 		{
@@ -735,6 +738,7 @@ public class ModeleCalculateur extends Modele
 			soins = this.statistiquesGlobales.getInt(FlagsTypesEffets.Soins) + this.statistiquesBoost.getInt(FlagsTypesEffets.Soins);
 			dommages = this.statistiquesGlobales.getInt(FlagsTypesEffets.Dommages) + this.statistiquesBoost.getInt(FlagsTypesEffets.Dommages);
 			pourcentDommages = this.statistiquesGlobales.getInt(FlagsTypesEffets.PourcentagesDommages) + this.statistiquesBoost.getInt(FlagsTypesEffets.PourcentagesDommages);
+			cc = this.statistiquesGlobales.getInt(FlagsTypesEffets.CoupsCritiques) + this.statistiquesBoost.getInt(FlagsTypesEffets.CoupsCritiques);
 		}
 		else
 		{
@@ -745,8 +749,9 @@ public class ModeleCalculateur extends Modele
 			soins = this.statistiquesGlobales.getInt(FlagsTypesEffets.Soins);
 			dommages = this.statistiquesGlobales.getInt(FlagsTypesEffets.Dommages);
 			pourcentDommages = this.statistiquesGlobales.getInt(FlagsTypesEffets.PourcentagesDommages);
-
+			cc = this.statistiquesGlobales.getInt(FlagsTypesEffets.CoupsCritiques);
 		}
+		
 		// Si le sort est un piège
 		if(sort.getNature() == Sort.NatureSortsFlags.Piege)
 		{
@@ -952,10 +957,10 @@ public class ModeleCalculateur extends Modele
 		}
 
 		retour.put("PA", String.valueOf(sort.get(niveau, "PA")));
-		int cc = Integer.parseInt((String) sort.get(niveau, "CC"));
-		if(cc != 0)
+		int probaCc = Integer.parseInt((String) sort.get(niveau, "CC"));
+		if(probaCc != 0)
 		{
-			retour.put("CC", String.valueOf(Formules.getCoupsCritiques(cc, agi, this.statistiquesGlobales.getInt(FlagsTypesEffets.CoupsCritiques))));
+			retour.put("CC", "1/" + String.valueOf(Formules.getCoupsCritiques(probaCc, agi, cc)));
 		}
 		else
 		{
@@ -964,7 +969,7 @@ public class ModeleCalculateur extends Modele
 		int ec = Integer.parseInt((String) sort.get(niveau, "EC"));
 		if(ec != 0)
 		{
-			retour.put("EC", String.valueOf(ec - this.statistiquesGlobales.getInt(FlagsTypesEffets.EchecsCritiques)));
+			retour.put("EC", "1/" + String.valueOf(ec - this.statistiquesGlobales.getInt(FlagsTypesEffets.EchecsCritiques)));
 		}
 		else
 		{
@@ -2387,7 +2392,7 @@ public class ModeleCalculateur extends Modele
 		double coefCoupsCC;
 		if(!donneesDegatsSimulation.get("EC").equals("-"))
 		{
-			ec = Integer.parseInt(donneesDegatsSimulation.get("EC"));
+			ec = Integer.parseInt(donneesDegatsSimulation.get("EC").substring(2));
 			nbCoupsHorsEC = nbCoups * (1 - (double) 1 / (double) ec);
 		}
 		else
@@ -2397,7 +2402,7 @@ public class ModeleCalculateur extends Modele
 		}
 		if(!donneesDegatsSimulation.get("CC").equals("-"))
 		{
-			cc = Integer.parseInt(donneesDegatsSimulation.get("CC"));
+			cc = Integer.parseInt(donneesDegatsSimulation.get("CC").substring(2));
 			coefCoupsNorm = nbCoupsHorsEC * (1 - (double) 1 / (double) cc);
 			coefCoupsCC = nbCoupsHorsEC - coefCoupsNorm;
 		}
@@ -2548,7 +2553,7 @@ public class ModeleCalculateur extends Modele
 
 		if(ec != 0)
 		{
-			retour.put("EC", String.valueOf(ec));
+			retour.put("EC", "1/" + String.valueOf(ec));
 		}
 		else
 		{
@@ -2557,7 +2562,7 @@ public class ModeleCalculateur extends Modele
 
 		if(cc != 0)
 		{
-			retour.put("CC", String.valueOf(cc));
+			retour.put("CC", "1/" + String.valueOf(cc));
 			retour.put("Moyenne Coup Critique Neutre", String.valueOf(degatsMoyCoupNeutreCC));
 			retour.put("Moyenne Coup Critique Terre", String.valueOf(degatsMoyCoupTerreCC));
 			retour.put("Moyenne Coup Critique Feu", String.valueOf(degatsMoyCoupFeuCC));

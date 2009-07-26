@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sorts>
+	<sort>
+		<nom>Mot Curatif</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>11</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>16</min>
+					<max>16</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>7</min>
+					<max>13</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>20</min>
+					<max>20</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>9</min>
+					<max>15</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>24</min>
+					<max>24</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>11</min>
+					<max>17</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>28</min>
+					<max>28</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>13</min>
+					<max>19</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>32</min>
+					<max>32</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>17</min>
+					<max>25</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>40</min>
+					<max>40</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot Blessant</nom>
+		<niveau>1</niveau>
+		<caracteristiques niveau="1">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>8</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>11</min>
+					<max>11</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>9</min>
+					<max>11</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>12</min>
+					<max>12</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>10</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>13</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>11</min>
+					<max>13</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>14</min>
+					<max>14</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>12</min>
+					<max>14</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>15</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>16</min>
+					<max>18</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>19</min>
+					<max>19</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot Soignant</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>3</min>
+					<max>6</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>9</min>
+					<max>9</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>4</min>
+					<max>7</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>11</min>
+					<max>11</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>8</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>13</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>6</min>
+					<max>9</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>15</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>8</min>
+					<max>11</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>19</min>
+					<max>19</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>2</pa>
+			<cc>35</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>11</min>
+					<max>14</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>20</min>
+					<max>20</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot Interdit</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>8</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>9</min>
+					<max>9</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>4</min>
+					<max>9</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>11</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>5</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>13</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>6</min>
+					<max>11</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>15</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>13</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>19</min>
+					<max>19</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>16</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>25</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot Revitalisant</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>5</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>6</min>
+					<max>6</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>6</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>7</min>
+					<max>7</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>7</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>8</min>
+					<max>8</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>8</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>9</min>
+					<max>9</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>2</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>9</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>10</min>
+					<max>10</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>2</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>7</min>
+					<max>11</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>12</min>
+					<max>12</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot de Régénération</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>5</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>3</min>
+					<max>6</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>6</min>
+					<max>6</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot Vampirique</nom>
+		<niveau>42</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>17</min>
+					<max>22</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>23</min>
+					<max>23</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>18</min>
+					<max>24</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>25</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>19</min>
+					<max>26</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>27</min>
+					<max>27</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>20</min>
+					<max>28</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>29</min>
+					<max>29</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>21</min>
+					<max>30</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>31</min>
+					<max>31</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>31</min>
+					<max>40</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie eau">
+					<min>41</min>
+					<max>41</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot de Sacrifice</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>16</min>
+					<max>25</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>16</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>21</min>
+					<max>30</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>21</min>
+					<max>30</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>31</min>
+					<max>40</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>31</min>
+					<max>40</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>36</min>
+					<max>45</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>36</min>
+					<max>45</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot d'Altruisme</nom>
+		<niveau>90</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>30</min>
+					<max>50</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>51</min>
+					<max>51</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>40</min>
+					<max>65</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>66</min>
+					<max>66</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>50</min>
+					<max>80</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>81</min>
+					<max>81</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>60</min>
+					<max>95</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>96</min>
+					<max>96</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>70</min>
+					<max>110</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>111</min>
+					<max>111</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>70</min>
+					<max>110</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>126</min>
+					<max>126</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Mot de Reconstitution</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>8</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>101</min>
+					<max>200</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>301</min>
+					<max>301</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>7</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>101</min>
+					<max>200</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>301</min>
+					<max>301</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>7</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>151</min>
+					<max>250</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>351</min>
+					<max>351</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>7</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>201</min>
+					<max>300</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>451</min>
+					<max>451</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>301</min>
+					<max>400</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>651</min>
+					<max>651</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Soins">
+					<min>401</min>
+					<max>500</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Soins">
+					<min>851</min>
+					<max>851</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+</sorts>
+

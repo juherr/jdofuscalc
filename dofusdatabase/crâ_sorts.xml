@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sorts>
+	<sort>
+		<nom>Flèche Magique</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>7</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>7</min>
+					<max>10</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>4</min>
+					<max>8</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>11</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>6</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>10</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>12</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>15</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>15</min>
+					<max>18</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>14</min>
+					<max>18</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>18</min>
+					<max>21</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Glacée</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>1</min>
+					<max>2</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>4</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>2</min>
+					<max>3</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>5</min>
+					<max>6</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>6</min>
+					<max>7</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>4</min>
+					<max>6</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>7</min>
+					<max>9</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>5</min>
+					<max>7</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>10</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>7</min>
+					<max>9</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Chercheuse</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>3</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>3</min>
+					<max>3</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>3</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>4</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>3</pa>
+			<cc>35</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>5</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>5</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>30</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>6</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>6</min>
+					<max>6</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>30</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>10</min>
+					<max>10</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>30</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>3</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>12</min>
+					<max>12</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Enflammée</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>5</min>
+					<max>9</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>14</min>
+					<max>14</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>5</min>
+					<max>11</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>16</min>
+					<max>16</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>6</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>5</min>
+					<max>13</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>18</min>
+					<max>18</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>6</pa>
+			<cc>38</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>7</min>
+					<max>16</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>21</min>
+					<max>21</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>35</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>10</min>
+					<max>22</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>26</min>
+					<max>26</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>5</pa>
+			<cc>35</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>13</min>
+					<max>28</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>32</min>
+					<max>32</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche d'Expiation</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>6</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>9</min>
+					<max>23</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>8</min>
+					<max>22</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>11</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>8</min>
+					<max>27</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>11</min>
+					<max>30</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>10</min>
+					<max>29</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>13</min>
+					<max>32</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>10</min>
+					<max>34</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>13</min>
+					<max>37</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>6</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>13</min>
+					<max>37</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>35</min>
+					<max>35</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche de Recul</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>5</min>
+					<max>6</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>8</min>
+					<max>9</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>7</min>
+					<max>9</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>10</min>
+					<max>12</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>9</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>12</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>11</min>
+					<max>15</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>14</min>
+					<max>18</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>14</min>
+					<max>19</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>17</min>
+					<max>22</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>16</min>
+					<max>21</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>19</min>
+					<max>21</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche d'Immobilisation</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>2</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>6</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>2</min>
+					<max>6</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>8</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>2</min>
+					<max>8</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>10</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>2</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>12</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>2</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>14</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>14</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>7</min>
+					<max>17</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Punitive</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>50</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>15</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>60</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>25</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>80</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>30</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>100</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>35</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>30</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>100</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Harcelante</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>1</min>
+					<max>2</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>2</min>
+					<max>3</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>2</min>
+					<max>3</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>4</min>
+					<max>4</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>3</min>
+					<max>4</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>5</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>4</min>
+					<max>5</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>6</min>
+					<max>6</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>6</min>
+					<max>7</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>8</min>
+					<max>8</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts air">
+					<min>7</min>
+					<max>8</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts air">
+					<min>10</min>
+					<max>10</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Cinglante</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>2</min>
+					<max>6</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>5</min>
+					<max>9</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>2</min>
+					<max>8</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>5</min>
+					<max>11</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>2</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>5</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>2</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>5</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>2</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>5</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>2</min>
+					<max>16</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>5</min>
+					<max>19</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Destructrice</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>16</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>9</min>
+					<max>21</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>5</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>10</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>6</min>
+					<max>24</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>11</min>
+					<max>29</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+			</normal>
+			<critique>
+				<effets />
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>8</min>
+					<max>32</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>37</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>10</min>
+					<max>40</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>15</min>
+					<max>45</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Absorbante</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>7</min>
+					<max>16</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>13</min>
+					<max>22</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>9</min>
+					<max>18</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>17</min>
+					<max>26</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>6</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>21</min>
+					<max>30</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>11</min>
+					<max>22</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>21</min>
+					<max>32</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>13</min>
+					<max>24</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>25</min>
+					<max>36</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>13</min>
+					<max>24</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie air">
+					<min>25</min>
+					<max>36</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Ralentissante</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>9</min>
+					<max>13</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>17</min>
+					<max>21</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>11</min>
+					<max>15</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>21</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>11</min>
+					<max>15</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>21</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>13</min>
+					<max>17</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>25</min>
+					<max>29</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>15</min>
+					<max>21</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>29</min>
+					<max>35</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>40</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>15</min>
+					<max>21</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>29</min>
+					<max>35</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Flèche Explosive</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>4</min>
+					<max>18</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>13</min>
+					<max>21</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>6</min>
+					<max>23</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>17</min>
+					<max>26</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>7</min>
+					<max>27</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>18</min>
+					<max>30</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>31</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>19</min>
+					<max>34</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>10</min>
+					<max>34</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>21</min>
+					<max>37</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>10</min>
+					<max>34</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>21</min>
+					<max>37</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+</sorts>
+

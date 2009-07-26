@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>UISauvegardesPersonnages</class>
+ <widget class="QWidget" name="UISauvegardesPersonnages">
+  <property name="windowModality">
+   <enum>com.trolltech.qt.core.Qt.WindowModality.WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Charger une sauvegarde</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="5">
+    <widget class="QListWidget" name="listeSauvegardes">
+     <property name="focusPolicy">
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+     </property>
+     <property name="editTriggers">
+      <set>com.trolltech.qt.gui.QAbstractItemView.EditTrigger.NoEditTriggers</set>
+     </property>
+     <property name="selectionRectVisible">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="btnCharger">
+     <property name="focusPolicy">
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text">
+      <string>Charger</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="btnSupp">
+     <property name="focusPolicy">
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text">
+      <string>Supprimer</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/edit_remove.png</normaloff>classpath:org/JDofusCalc/ressources/images/edit_remove.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="btnRenommer">
+     <property name="focusPolicy">
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text">
+      <string>Renommer</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/editclear.png</normaloff>classpath:org/JDofusCalc/ressources/images/editclear.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="btnFermer">
+     <property name="focusPolicy">
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text">
+      <string>Fermer</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>com.trolltech.qt.core.Qt.Orientation.Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="0" rowspan="2">
+    <widget class="QGroupBox" name="grpInfo">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="title">
+      <string>Informations</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="0">
+       <widget class="QLabel" name="label1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Nom du personnage :</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="lblNomPerso">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Niveau du personnage :</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="lblNiveauPerso">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="lblNomSauvegarde">
+        <property name="text">
+         <string>Nom de la sauvegarde :</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="txtNomSauvegarde">
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>com.trolltech.qt.core.Qt.Orientation.Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>com.trolltech.qt.gui.QSizePolicy.Policy.Minimum</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="btnSauvegarder">
+     <property name="focusPolicy">
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+     </property>
+     <property name="text">
+      <string>Sauvegarder</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>24</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>listeSauvegardes</tabstop>
+  <tabstop>btnCharger</tabstop>
+  <tabstop>btnSupp</tabstop>
+  <tabstop>btnRenommer</tabstop>
+  <tabstop>btnFermer</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

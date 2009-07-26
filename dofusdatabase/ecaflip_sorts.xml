@@ -1,0 +1,1873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sorts>
+	<sort>
+		<nom>Pile ou Face</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>11</max>
+				</degats>
+				<degats type="Soins">
+					<min>1</min>
+					<max>7</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>12</max>
+				</degats>
+				<degats type="Soins">
+					<min>1</min>
+					<max>3</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>12</max>
+				</degats>
+				<degats type="Soins">
+					<min>2</min>
+					<max>9</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>13</max>
+				</degats>
+				<degats type="Soins">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>13</max>
+				</degats>
+				<degats type="Soins">
+					<min>2</min>
+					<max>9</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>14</max>
+				</degats>
+				<degats type="Soins">
+					<min>1</min>
+					<max>4</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>14</max>
+				</degats>
+				<degats type="Soins">
+					<min>3</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>15</max>
+				</degats>
+				<degats type="Soins">
+					<min>1</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>15</max>
+				</degats>
+				<degats type="Soins">
+					<min>4</min>
+					<max>11</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>17</max>
+				</degats>
+				<degats type="Soins">
+					<min>1</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>6</min>
+					<max>19</max>
+				</degats>
+				<degats type="Soins">
+					<min>5</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>9</min>
+					<max>24</max>
+				</degats>
+				<degats type="Soins">
+					<min>1</min>
+					<max>5</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+		<sort>
+		<nom>Pile ou Face (Allié)</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>11</max>
+				</degats>
+				<degats type="Soins">
+					<min>6</min>
+					<max>10</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>12</max>
+				</degats>
+				<degats type="Soins">
+					<min>11</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>12</max>
+				</degats>
+				<degats type="Soins">
+					<min>6</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>13</max>
+				</degats>
+				<degats type="Soins">
+					<min>13</min>
+					<max>17</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>13</max>
+				</degats>
+				<degats type="Soins">
+					<min>6</min>
+					<max>14</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>14</max>
+				</degats>
+				<degats type="Soins">
+					<min>15</min>
+					<max>19</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>14</max>
+				</degats>
+				<degats type="Soins">
+					<min>6</min>
+					<max>16</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>15</max>
+				</degats>
+				<degats type="Soins">
+					<min>17</min>
+					<max>21</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>15</max>
+				</degats>
+				<degats type="Soins">
+					<min>6</min>
+					<max>18</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>17</max>
+				</degats>
+				<degats type="Soins">
+					<min>9</min>
+					<max>13</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>6</min>
+					<max>19</max>
+				</degats>
+				<degats type="Soins">
+					<min>8</min>
+					<max>22</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>9</min>
+					<max>24</max>
+				</degats>
+				<degats type="Soins">
+					<min>23</min>
+					<max>27</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Bluff</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>1</min>
+					<max>22</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>1</min>
+					<max>22</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>25</min>
+					<max>25</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>25</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>1</min>
+					<max>25</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>1</min>
+					<max>25</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>28</min>
+					<max>28</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>28</min>
+					<max>28</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>1</min>
+					<max>28</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>1</min>
+					<max>28</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>33</min>
+					<max>33</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>33</min>
+					<max>33</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>1</min>
+					<max>35</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>1</min>
+					<max>35</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>40</min>
+					<max>40</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>40</min>
+					<max>40</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>1</min>
+					<max>45</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>1</min>
+					<max>45</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>50</min>
+					<max>50</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>50</min>
+					<max>50</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>1</min>
+					<max>50</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>1</min>
+					<max>50</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts eau">
+					<min>55</min>
+					<max>55</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>55</min>
+					<max>55</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Tout ou Rien</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>2</min>
+					<max>7</max>
+				</degats>
+				<degats type="Soins">
+					<min>2</min>
+					<max>7</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>3</min>
+					<max>14</max>
+				</degats>
+				<degats type="Soins">
+					<min>3</min>
+					<max>14</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>3</min>
+					<max>12</max>
+				</degats>
+				<degats type="Soins">
+					<min>3</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>5</min>
+					<max>24</max>
+				</degats>
+				<degats type="Soins">
+					<min>5</min>
+					<max>24</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>3</min>
+					<max>17</max>
+				</degats>
+				<degats type="Soins">
+					<min>3</min>
+					<max>17</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>5</min>
+					<max>34</max>
+				</degats>
+				<degats type="Soins">
+					<min>5</min>
+					<max>34</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>3</min>
+					<max>22</max>
+				</degats>
+				<degats type="Soins">
+					<min>3</min>
+					<max>22</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>5</min>
+					<max>44</max>
+				</degats>
+				<degats type="Soins">
+					<min>5</min>
+					<max>44</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>28</max>
+				</degats>
+				<degats type="Soins">
+					<min>4</min>
+					<max>28</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>7</min>
+					<max>56</max>
+				</degats>
+				<degats type="Soins">
+					<min>7</min>
+					<max>56</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>38</max>
+				</degats>
+				<degats type="Soins">
+					<min>4</min>
+					<max>38</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>7</min>
+					<max>76</max>
+				</degats>
+				<degats type="Soins">
+					<min>7</min>
+					<max>76</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+		<sort>
+		<nom>Tout ou Rien (Allié)</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>2</min>
+					<max>7</max>
+				</degats>
+				<degats type="Soins">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>3</min>
+					<max>14</max>
+				</degats>
+				<degats type="Soins">
+					<min>21</min>
+					<max>40</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>3</min>
+					<max>12</max>
+				</degats>
+				<degats type="Soins">
+					<min>11</min>
+					<max>25</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>5</min>
+					<max>24</max>
+				</degats>
+				<degats type="Soins">
+					<min>21</min>
+					<max>50</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>3</min>
+					<max>17</max>
+				</degats>
+				<degats type="Soins">
+					<min>11</min>
+					<max>30</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>5</min>
+					<max>34</max>
+				</degats>
+				<degats type="Soins">
+					<min>21</min>
+					<max>60</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>3</min>
+					<max>22</max>
+				</degats>
+				<degats type="Soins">
+					<min>11</min>
+					<max>35</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>5</min>
+					<max>44</max>
+				</degats>
+				<degats type="Soins">
+					<min>21</min>
+					<max>70</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>28</max>
+				</degats>
+				<degats type="Soins">
+					<min>11</min>
+					<max>40</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>7</min>
+					<max>56</max>
+				</degats>
+				<degats type="Soins">
+					<min>21</min>
+					<max>80</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>4</min>
+					<max>38</max>
+				</degats>
+				<degats type="Soins">
+					<min>11</min>
+					<max>50</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts neutre">
+					<min>7</min>
+					<max>76</max>
+				</degats>
+				<degats type="Soins">
+					<min>21</min>
+					<max>100</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Topkaj</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>12</min>
+					<max>24</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>10</min>
+					<max>22</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>14</min>
+					<max>26</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>12</min>
+					<max>24</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>16</min>
+					<max>28</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>16</min>
+					<max>28</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>18</min>
+					<max>30</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>18</min>
+					<max>30</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>20</min>
+					<max>32</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>19</min>
+					<max>31</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>22</min>
+					<max>34</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Langue Râpeuse</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>3</min>
+					<max>12</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>6</min>
+					<max>15</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>5</pa>
+			<cc>46</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>5</min>
+					<max>14</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>17</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>42</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>7</min>
+					<max>16</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>8</min>
+					<max>17</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>38</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>9</min>
+					<max>18</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>34</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>13</min>
+					<max>22</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>30</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>16</min>
+					<max>25</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts feu">
+					<min>18</min>
+					<max>27</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Esprit Félin</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>20</min>
+					<max>20</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>16</min>
+					<max>25</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>25</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>21</min>
+					<max>30</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>30</min>
+					<max>30</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>21</min>
+					<max>35</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>35</min>
+					<max>35</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>26</min>
+					<max>40</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>40</min>
+					<max>40</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>3</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>36</min>
+					<max>50</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>50</min>
+					<max>50</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Griffe Joueuse</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>10</min>
+					<max>15</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>16</min>
+					<max>16</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>12</min>
+					<max>17</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>18</min>
+					<max>18</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>14</min>
+					<max>19</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>20</min>
+					<max>20</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>18</min>
+					<max>23</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>25</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>21</min>
+					<max>26</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>30</min>
+					<max>30</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>5</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>24</min>
+					<max>29</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>35</min>
+					<max>35</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Griffe de Caengal</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>25</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>28</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>28</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>31</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>31</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>34</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>34</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>15</min>
+					<max>39</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>15</min>
+					<max>39</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>45</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>21</min>
+					<max>45</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>21</min>
+					<max>45</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Rekop</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>2</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+				<degats type="Dégâts eau">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>2</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>11</min>
+					<max>25</max>
+				</degats>
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>25</max>
+				</degats>
+				<degats type="Dégâts eau">
+					<min>11</min>
+					<max>25</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>11</min>
+					<max>25</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>6</pa>
+			<cc>2</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>11</min>
+					<max>30</max>
+				</degats>
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>30</max>
+				</degats>
+				<degats type="Dégâts eau">
+					<min>11</min>
+					<max>30</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>11</min>
+					<max>30</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>6</pa>
+			<cc>2</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>11</min>
+					<max>35</max>
+				</degats>
+				<degats type="Dégâts feu">
+					<min>11</min>
+					<max>35</max>
+				</degats>
+				<degats type="Dégâts eau">
+					<min>11</min>
+					<max>35</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>11</min>
+					<max>35</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>2</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>12</min>
+					<max>41</max>
+				</degats>
+				<degats type="Dégâts feu">
+					<min>12</min>
+					<max>41</max>
+				</degats>
+				<degats type="Dégâts eau">
+					<min>12</min>
+					<max>41</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>12</min>
+					<max>41</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>2</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>12</min>
+					<max>41</max>
+				</degats>
+				<degats type="Dégâts feu">
+					<min>12</min>
+					<max>41</max>
+				</degats>
+				<degats type="Dégâts eau">
+					<min>12</min>
+					<max>41</max>
+				</degats>
+				<degats type="Dégâts air">
+					<min>12</min>
+					<max>41</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Destin d'Ecaflip</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>6</pa>
+			<cc>30</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>1</min>
+					<max>20</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>75</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>6</pa>
+			<cc>29</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>4</min>
+					<max>23</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>75</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>5</pa>
+			<cc>28</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>7</min>
+					<max>26</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>75</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>5</pa>
+			<cc>27</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>10</min>
+					<max>29</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>75</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>5</pa>
+			<cc>25</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>37</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>75</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>20</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>37</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Dégâts terre">
+					<min>13</min>
+					<max>75</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+	<sort>
+		<nom>Félintion</nom>
+		<niveau>0</niveau>
+		<caracteristiques niveau="1">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>9</min>
+					<max>18</max>
+				</degats>
+				<degats type="Soins">
+					<min>21</min>
+					<max>50</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>19</min>
+					<max>23</max>
+				</degats>
+				<degats type="Soins">
+					<min>51</min>
+					<max>55</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="2">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+				<degats type="Soins">
+					<min>23</min>
+					<max>54</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>21</min>
+					<max>25</max>
+				</degats>
+				<degats type="Soins">
+					<min>55</min>
+					<max>59</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="3">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>11</min>
+					<max>20</max>
+				</degats>
+				<degats type="Soins">
+					<min>25</min>
+					<max>58</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>21</min>
+					<max>25</max>
+				</degats>
+				<degats type="Soins">
+					<min>59</min>
+					<max>63</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="4">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>13</min>
+					<max>22</max>
+				</degats>
+				<degats type="Soins">
+					<min>27</min>
+					<max>62</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>23</min>
+					<max>27</max>
+				</degats>
+				<degats type="Soins">
+					<min>63</min>
+					<max>67</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="5">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>13</min>
+					<max>24</max>
+				</degats>
+				<degats type="Soins">
+					<min>29</min>
+					<max>66</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>25</min>
+					<max>31</max>
+				</degats>
+				<degats type="Soins">
+					<min>67</min>
+					<max>71</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		<caracteristiques niveau="6">
+			<pa>4</pa>
+			<cc>50</cc>
+			<ec>100</ec>
+			<normal>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>14</min>
+					<max>28</max>
+				</degats>
+				<degats type="Soins">
+					<min>31</min>
+					<max>70</max>
+				</degats>
+			</normal>
+			<critique>
+				<effets />
+				<degats type="Vols de vie terre">
+					<min>29</min>
+					<max>36</max>
+				</degats>
+				<degats type="Soins">
+					<min>71</min>
+					<max>75</max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+</sorts>

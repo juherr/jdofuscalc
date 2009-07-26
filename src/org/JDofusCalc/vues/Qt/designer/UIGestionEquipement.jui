@@ -1,0 +1,3373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>UIGestionEquipement</class>
+ <widget class="QWidget" name="UIGestionEquipement">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>666</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_11">
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="grpModele">
+     <property name="title">
+      <string>Modèle</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_12">
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboModele">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3" colspan="2">
+       <widget class="QPushButton" name="btnChargerModele">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>Charger</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</normaloff>classpath:org/JDofusCalc/ressources/images/fileopen.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="5">
+       <widget class="QFrame" name="frame">
+        <property name="frameShape">
+         <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <property name="margin">
+          <number>1</number>
+         </property>
+         <item>
+          <widget class="QRadioButton" name="rbtnMini">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="focusPolicy">
+            <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+           </property>
+           <property name="text">
+            <string>Jets minimums</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="rbtnMoy">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="focusPolicy">
+            <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+           </property>
+           <property name="text">
+            <string>Jets moyens</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="rbtnMaxi">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="focusPolicy">
+            <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+           </property>
+           <property name="text">
+            <string>Jets maximums</string>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QWidgetFiltre" name="filtre">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0" rowspan="3">
+    <widget class="QFrame" name="frameListe">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>165</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>165</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lblListe">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Objets enregistrés :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="listeEquip">
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QFrame" name="frameActions">
+     <property name="frameShape">
+      <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="btnNouveau">
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>Nouveau</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/filenew.png</normaloff>classpath:org/JDofusCalc/ressources/images/filenew.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSupp">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/edit_remove.png</normaloff>classpath:org/JDofusCalc/ressources/images/edit_remove.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>com.trolltech.qt.core.Qt.Orientation.Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>418</width>
+          <height>17</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSauv">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>Sauvegarder</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</normaloff>classpath:org/JDofusCalc/ressources/images/filesave.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnFermer">
+        <property name="focusPolicy">
+         <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+        </property>
+        <property name="text">
+         <string>Fermer</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</normaloff>classpath:org/JDofusCalc/ressources/images/exit.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QTabWidget" name="onglets">
+     <property name="focusPolicy">
+      <enum>com.trolltech.qt.core.Qt.FocusPolicy.TabFocus</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="ongletCaract">
+      <attribute name="title">
+       <string>Caractéristiques</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="2" column="0" colspan="8">
+        <widget class="QFrame" name="frameStats">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <property name="margin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frameStatsGene">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frameStatsGeneIcones">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
+	border: 1px solid #4578ba;
+	background-color: #8aaad9;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_2">
+                <property name="sizeConstraint">
+                 <enum>com.trolltech.qt.gui.QLayout.SizeConstraint.SetDefaultConstraint</enum>
+                </property>
+                <property name="margin">
+                 <number>1</number>
+                </property>
+                <property name="spacing">
+                 <number>1</number>
+                </property>
+                <item row="0" column="1">
+                 <widget class="QLabel" name="lblStatsPA">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Points d'action</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/pa.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLabel" name="lblStatsPM">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Points de mouvement</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/pm.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QLabel" name="lblStatsPO">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Bonus de Portée</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/po.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLabel" name="lblStatsIni">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>30</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>30</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Initiative</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/ini.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QLabel" name="lblStatsPP">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Prospection</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/pp.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="lblStatsVie">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>30</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>30</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Vie totale</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/vie.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frameStatsGeneTxt">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
+	border: 1px solid #4578ba;
+	background-color: #8aaad9;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_4">
+                <property name="sizeConstraint">
+                 <enum>com.trolltech.qt.gui.QLayout.SizeConstraint.SetDefaultConstraint</enum>
+                </property>
+                <property name="margin">
+                 <number>1</number>
+                </property>
+                <property name="spacing">
+                 <number>1</number>
+                </property>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="txtStatsPA">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Points d'action</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#9; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLineEdit" name="txtStatsIni">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>30</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>30</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Initiative</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#9999; </string>
+                  </property>
+                  <property name="maxLength">
+                   <number>5</number>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLineEdit" name="txtStatsVie">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>30</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>30</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Vie totale</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#9999; </string>
+                  </property>
+                  <property name="maxLength">
+                   <number>5</number>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QLineEdit" name="txtStatsPO">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Bonus de Portée</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#9; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QLineEdit" name="txtStatsPP">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Prospection</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLineEdit" name="txtStatsPM">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Points de mouvement</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#9; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QFrame" name="frameStatsAutre">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frameStatsAutreIcones">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
+	border: 1px solid #47af64;
+	background-color: #8fc794;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_5">
+                <property name="margin">
+                 <number>1</number>
+                </property>
+                <property name="spacing">
+                 <number>1</number>
+                </property>
+                <item row="0" column="1">
+                 <widget class="QLabel" name="lblStatsPDom">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Dommages</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/pdommages.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLabel" name="lblStatsInvoc">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Créatures invocables</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/invoc.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLabel" name="lblStatsCC">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Bonus Coups Critiques</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/critique.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QLabel" name="lblStatsSoin">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Soins</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/soins.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QLabel" name="lblStatsDomPiege">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Dommages aux pièges</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/piege.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="6">
+                 <widget class="QLabel" name="lblStatsPDomPiege">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Dommages aux pièges</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/ppiege.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="7">
+                 <widget class="QLabel" name="lblStatsEC">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Malus aux échecs critiques</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/echecs_critiques.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="8">
+                 <widget class="QLabel" name="lblStatsRenvois">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Renvois</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/renvois.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="lblStatsDom">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Dommages</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/dommages.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frameStatsAutreTxt">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
+	border: 1px solid #47af64;
+	background-color: #8fc794;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_7">
+                <property name="margin">
+                 <number>1</number>
+                </property>
+                <property name="spacing">
+                 <number>1</number>
+                </property>
+                <item row="0" column="5">
+                 <widget class="QLineEdit" name="txtStatsDomPiege">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Dommages aux pièges</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="6">
+                 <widget class="QLineEdit" name="txtStatsPDomPiege">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Dommages aux pièges</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="txtStatsPDom">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Dommages</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QLineEdit" name="txtStatsSoin">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Soins</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLineEdit" name="txtStatsCC">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Bonus Coups Critiques</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="7">
+                 <widget class="QLineEdit" name="txtStatsEC">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Malus aux échecs critiques</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="8">
+                 <widget class="QLineEdit" name="txtStatsRenvois">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Renvois</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLineEdit" name="txtStatsDom">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Dommages</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLineEdit" name="txtStatsInvoc">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Créatures invocables</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QFrame" name="frameStatsRes">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frameStatsResIcones">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
+	border: 1px solid #ab46a0;
+	background-color: #c38cbc;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_9">
+                <property name="sizeConstraint">
+                 <enum>com.trolltech.qt.gui.QLayout.SizeConstraint.SetDefaultConstraint</enum>
+                </property>
+                <property name="margin">
+                 <number>1</number>
+                </property>
+                <property name="spacing">
+                 <number>1</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="lblStatsResMagique">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Magique</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/resMagique.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLabel" name="lblStatsResPhysique">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Physique</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/resPhysique.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLabel" name="lblStatsResNeutre">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Neutre</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/resNeutre.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QLabel" name="lblStatsPResNeutre">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistance Neutre</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/PResNeutre.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLabel" name="lblStatsResTerre">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Terre</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/resTerre.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QLabel" name="lblStatsPResTerre">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistance Terre</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/PResTerre.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="6">
+                 <widget class="QLabel" name="lblStatsResFeu">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Feu</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/resFeu.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="7">
+                 <widget class="QLabel" name="lblStatsPResFeu">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistance Feu</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/PResFeu.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="8">
+                 <widget class="QLabel" name="lblStatsResEau">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Eau</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/resEau.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="9">
+                 <widget class="QLabel" name="lblStatsPResEau">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistance Eau</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/PResEau.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="10">
+                 <widget class="QLabel" name="lblStatsResAir">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Air</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/resAir.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="11">
+                 <widget class="QLabel" name="lblStatsPResAir">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistance Air</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/PResAir.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frameStatsResTxt">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
+	border: 1px solid #ab46a0;
+	background-color: #c38cbc;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_10">
+                <property name="sizeConstraint">
+                 <enum>com.trolltech.qt.gui.QLayout.SizeConstraint.SetDefaultConstraint</enum>
+                </property>
+                <property name="margin">
+                 <number>1</number>
+                </property>
+                <property name="spacing">
+                 <number>1</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="QLineEdit" name="txtStatsResMagique">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Magique</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="txtStatsResPhysique">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Physique</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLineEdit" name="txtStatsResNeutre">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Neutre</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QLineEdit" name="txtStatsPResNeutre">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Resistance Neutre</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLineEdit" name="txtStatsResTerre">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Terre</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QLineEdit" name="txtStatsPResTerre">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistance Terre</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="6">
+                 <widget class="QLineEdit" name="txtStatsResFeu">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Feu</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="7">
+                 <widget class="QLineEdit" name="txtStatsPResFeu">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistance Feu</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="8">
+                 <widget class="QLineEdit" name="txtStatsResEau">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Eau</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="9">
+                 <widget class="QLineEdit" name="txtStatsPResEau">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistnace Eau</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="10">
+                 <widget class="QLineEdit" name="txtStatsResAir">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Résistance Air</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="11">
+                 <widget class="QLineEdit" name="txtStatsPResAir">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>% Résistance Air</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#99; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="2">
+           <widget class="QFrame" name="frameStatsCaract">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>com.trolltech.qt.gui.QFrame.Shadow.Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="margin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frameStatsCaractIcones">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
+	border: 1px solid #f19142;
+	background-color: #f9c884;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_3">
+                <property name="margin">
+                 <number>1</number>
+                </property>
+                <property name="spacing">
+                 <number>1</number>
+                </property>
+                <item row="0" column="1">
+                 <widget class="QLabel" name="lblStatsSag">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Sagesse</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/sagesse.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLabel" name="lblStatsChance">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Chance</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/chance.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLabel" name="lblStatsForce">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Force</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/force.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QLabel" name="lblStatsInt">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Intelligence</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/intelligence.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QLabel" name="lblStatsAgi">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Agilité</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/agilite.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="lblStatsVita">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>30</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>30</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>Vitalité</string>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>classpath:org/JDofusCalc/ressources/images/vita.png</pixmap>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frameStatsCaractTxt">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QFrame {
+	border: 1px solid #f19142;
+	background-color: #f9c884;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>com.trolltech.qt.gui.QFrame.Shape.StyledPanel</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_6">
+                <property name="margin">
+                 <number>1</number>
+                </property>
+                <property name="spacing">
+                 <number>1</number>
+                </property>
+                <item row="0" column="5">
+                 <widget class="QLineEdit" name="txtStatsAgi">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Agilité</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#999; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QLineEdit" name="txtStatsChance">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Chance</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#999; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QLineEdit" name="txtStatsInt">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Intelligence</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#999; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLineEdit" name="txtStatsVita">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>30</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>30</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Vitalité</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#9999; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="txtStatsSag">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Sagesse</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#999; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="2">
+                 <widget class="QLineEdit" name="txtStatsForce">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>25</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>25</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+                  </property>
+                  <property name="toolTip">
+                   <string>Force</string>
+                  </property>
+                  <property name="inputMask">
+                   <string>#999; </string>
+                  </property>
+                  <property name="alignment">
+                   <set>com.trolltech.qt.core.Qt.AlignmentFlag.AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="lblNom">
+         <property name="text">
+          <string>Nom</string>
+         </property>
+         <property name="buddy">
+          <cstring>txtNom</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="txtNom">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="focusPolicy">
+          <enum>com.trolltech.qt.core.Qt.FocusPolicy.StrongFocus</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="lblPano">
+         <property name="text">
+          <string>Panoplie :</string>
+         </property>
+         <property name="buddy">
+          <cstring>comboPano</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QComboBox" name="comboPano">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="focusPolicy">
+          <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+         </property>
+         <item>
+          <property name="text">
+           <string>&lt;Généré&gt;</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSpinBox" name="spinBoxNiveau">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="focusPolicy">
+          <enum>com.trolltech.qt.core.Qt.FocusPolicy.WheelFocus</enum>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>200</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="lblNiveau">
+         <property name="text">
+          <string>Niveau :</string>
+         </property>
+         <property name="buddy">
+          <cstring>spinBoxNiveau</cstring>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="ongletCondition">
+      <attribute name="title">
+       <string>Conditions</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QWidgetConditions" name="widgetConditions"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWidgetConditions</class>
+   <extends></extends>
+   <header>org.JDofusCalc.vues.Qt.composants</header>
+  </customwidget>
+  <customwidget>
+   <class>QWidgetFiltre</class>
+   <extends></extends>
+   <header>org.JDofusCalc.vues.Qt.composants</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>btnNouveau</tabstop>
+  <tabstop>btnSupp</tabstop>
+  <tabstop>comboModele</tabstop>
+  <tabstop>btnChargerModele</tabstop>
+  <tabstop>txtStatsVie</tabstop>
+  <tabstop>txtStatsPA</tabstop>
+  <tabstop>txtStatsPM</tabstop>
+  <tabstop>txtStatsPO</tabstop>
+  <tabstop>txtStatsIni</tabstop>
+  <tabstop>txtStatsPP</tabstop>
+  <tabstop>txtStatsVita</tabstop>
+  <tabstop>txtStatsSag</tabstop>
+  <tabstop>txtStatsForce</tabstop>
+  <tabstop>txtStatsInt</tabstop>
+  <tabstop>txtStatsChance</tabstop>
+  <tabstop>txtStatsAgi</tabstop>
+  <tabstop>txtStatsDom</tabstop>
+  <tabstop>txtStatsPDom</tabstop>
+  <tabstop>txtStatsCC</tabstop>
+  <tabstop>txtStatsSoin</tabstop>
+  <tabstop>txtStatsInvoc</tabstop>
+  <tabstop>txtStatsDomPiege</tabstop>
+  <tabstop>txtStatsPDomPiege</tabstop>
+  <tabstop>txtStatsResMagique</tabstop>
+  <tabstop>txtStatsResPhysique</tabstop>
+  <tabstop>txtStatsResNeutre</tabstop>
+  <tabstop>txtStatsPResNeutre</tabstop>
+  <tabstop>txtStatsResTerre</tabstop>
+  <tabstop>txtStatsPResTerre</tabstop>
+  <tabstop>txtStatsResFeu</tabstop>
+  <tabstop>txtStatsPResFeu</tabstop>
+  <tabstop>txtStatsResEau</tabstop>
+  <tabstop>txtStatsPResEau</tabstop>
+  <tabstop>txtStatsResAir</tabstop>
+  <tabstop>txtStatsPResAir</tabstop>
+  <tabstop>btnSauv</tabstop>
+  <tabstop>btnFermer</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnFermer</sender>
+   <signal>clicked&lt;java.lang.Boolean&gt;</signal>
+   <receiver>UIGestionEquipement</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>543</x>
+     <y>464</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>295</x>
+     <y>242</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

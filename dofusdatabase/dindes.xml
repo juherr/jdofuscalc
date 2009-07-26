@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<dinde>
+		<nom>Amande</nom>
+		<bonus>
+			<caracteristique nom="Initiative">10</caracteristique>
+			<caracteristique nom="Créatures invocables">0.02</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Rousse</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Sagesse">0.4</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Indigo</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Chance">0.8</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Agilité">0.8</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Orchidée</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Intelligence">0.8</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Pourpre</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Force">0.8</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ivoire</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="% Dommages">0.5</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Prospection">0.8</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Emeraude</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">2</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Prune</nom>
+		<bonus>
+			<caracteristique nom="Vitalité">2</caracteristique>
+			<caracteristique nom="Po">0.02</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Rousse</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.02</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Vitalité</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Indigo</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.01</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Chance">0.6</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Ebène</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.01</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Agilité">0.6</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Orchidée</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.01</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Intelligence">0.6</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Pourpre</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.01</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Force">0.6</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.01</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Ivoire</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.01</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Emeraude</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.01</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Amande et Prune</nom>
+		<bonus>
+			<caracteristique nom="Initiative">5</caracteristique>
+			<caracteristique nom="Créatures invocables">0.01</caracteristique>
+			<caracteristique nom="Vitalité">0.5</caracteristique>
+			<caracteristique nom="Po">0.01</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée et Rousse</nom>
+		<bonus>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée et Indigo</nom>
+		<bonus>
+			<caracteristique nom="Chance">0.6</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée et Ebène</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.6</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée et Orchidée</nom>
+		<bonus>
+			<caracteristique nom="Intelligence">0.6</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée et Pourpre</nom>
+		<bonus>
+			<caracteristique nom="Force">0.6</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée et Ivoire</nom>
+		<bonus>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Dorée et Emeraude</nom>
+		<bonus>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Prune et Vitalité</nom>
+		<bonus>
+			<caracteristique nom="Po">0.01</caracteristique>
+			<caracteristique nom="Sagesse">0.25</caracteristique>
+			<caracteristique nom="Vitalité">2</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène et Rousse</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.6</caracteristique>
+			<caracteristique nom="Vitalité">1.5</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène et Indigo</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.5</caracteristique>
+			<caracteristique nom="Chance">0.5</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène et Orchidée</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.5</caracteristique>
+			<caracteristique nom="Intelligence">0.5</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène et Pourpre</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.5</caracteristique>
+			<caracteristique nom="Force">0.5</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.6</caracteristique>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène et Ivoire</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.4</caracteristique>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène et Prune</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.6</caracteristique>
+			<caracteristique nom="Po">0.01</caracteristique>
+			<caracteristique nom="Vitalité">2</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ebène et Emeraude</nom>
+		<bonus>
+			<caracteristique nom="Agilité">0.3</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Emeraude et Rousse</nom>
+		<bonus>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Vitalité">3</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Emeraude et Indigo</nom>
+		<bonus>
+			<caracteristique nom="Chance">0.3</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Emeraude et Orchidée</nom>
+		<bonus>
+			<caracteristique nom="Intelligence">0.3</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Emeraude et Pourpre</nom>
+		<bonus>
+			<caracteristique nom="Force">0.3</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Emeraude et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Emeraude et Ivoire</nom>
+		<bonus>
+			<caracteristique nom="% Dommages">0.2</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Emeraude et Prune</nom>
+		<bonus>
+			<caracteristique nom="Po">0.01</caracteristique>
+			<caracteristique nom="Pm">0.01</caracteristique>
+			<caracteristique nom="Vitalité">2</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Indigo et Rousse</nom>
+		<bonus>
+			<caracteristique nom="Chance">0.6</caracteristique>
+			<caracteristique nom="Vitalité">1.5</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Indigo et Orchidée</nom>
+		<bonus>
+			<caracteristique nom="Chance">0.5</caracteristique>
+			<caracteristique nom="Intelligence">0.5</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Indigo et Pourpre</nom>
+		<bonus>
+			<caracteristique nom="Chance">0.5</caracteristique>
+			<caracteristique nom="Force">0.5</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Indigo et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Chance">0.6</caracteristique>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Indigo et Ivoire</nom>
+		<bonus>
+			<caracteristique nom="Chance">0.4</caracteristique>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Indigo et Prune</nom>
+		<bonus>
+			<caracteristique nom="Chance">0.6</caracteristique>
+			<caracteristique nom="Po">0.01</caracteristique>
+			<caracteristique nom="Vitalité">2</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ivoire et Rousse</nom>
+		<bonus>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1.5</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ivoire et Orchidée</nom>
+		<bonus>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+			<caracteristique nom="Intelligence">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ivoire et Pourpre</nom>
+		<bonus>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+			<caracteristique nom="Force">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ivoire et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Ivoire et Prune</nom>
+		<bonus>
+			<caracteristique nom="% Dommages">0.4</caracteristique>
+			<caracteristique nom="Po">0.01</caracteristique>
+			<caracteristique nom="Vitalité">2</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Orchidée et Rousse</nom>
+		<bonus>
+			<caracteristique nom="Intelligence">0.6</caracteristique>
+			<caracteristique nom="Vitalité">1.5</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Orchidée et Pourpre</nom>
+		<bonus>
+			<caracteristique nom="Force">0.5</caracteristique>
+			<caracteristique nom="Intelligence">0.5</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Orchidée et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+			<caracteristique nom="Intelligence">0.6</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Orchidée et Prune</nom>
+		<bonus>
+			<caracteristique nom="Portée">0.01</caracteristique>
+			<caracteristique nom="Intelligence">0.6</caracteristique>
+			<caracteristique nom="Vitalité">2</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Pourpre et Rousse</nom>
+		<bonus>
+			<caracteristique nom="Force">0.6</caracteristique>
+			<caracteristique nom="Vitalité">1.5</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Pourpre et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Force">0.6</caracteristique>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Pourpre et Prune</nom>
+		<bonus>
+			<caracteristique nom="Force">0.6</caracteristique>
+			<caracteristique nom="Po">0.01</caracteristique>
+			<caracteristique nom="Vitalité">2</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Prune et Rousse</nom>
+		<bonus>
+			<caracteristique nom="Po">0.01</caracteristique>
+			<caracteristique nom="Vitalité">3</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Prune et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Po">0.01</caracteristique>
+			<caracteristique nom="Prospection">0.6</caracteristique>
+			<caracteristique nom="Vitalité">2</caracteristique>
+		</bonus>
+	</dinde>
+	<dinde>
+		<nom>Rousse et Turquoise</nom>
+		<bonus>
+			<caracteristique nom="Prospection">0.4</caracteristique>
+			<caracteristique nom="Vitalité">1.5</caracteristique>
+		</bonus>
+	</dinde>
+</root>

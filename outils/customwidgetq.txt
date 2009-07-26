@@ -1,0 +1,7 @@
+ <customwidgets>
+   <customwidget>
+   <class>QWidgetTableauObjets</class>
+   <extends></extends>
+   <header>org.JDofusCalc.vues.Qt.composants</header>
+  </customwidget>
+ </customwidgets>

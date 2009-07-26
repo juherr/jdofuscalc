@@ -1,0 +1,18 @@
+<update>
+	<ancienneVersion>
+		<numero></numero>
+	</ancienneVersion>
+	<nouvelleVersion>
+		<numero></numero>
+	</nouvelleVersion>
+	
+	<changements>
+	</changements>
+	
+	<actions>
+		<ajouts/>
+		<modifications/>
+		<suppressoin/>
+		<scripts/>
+	</actions>
+</update>

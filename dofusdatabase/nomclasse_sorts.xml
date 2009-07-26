@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sorts>
+	<sort>
+		<nom></nom>
+		<niveau></niveau>
+		
+		<caracteristiques niveau="1">
+			<pa></pa>
+			<cc></cc>
+			<ec></ec>
+			
+			<normal>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</normal>
+			
+			<critique>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		
+		<caracteristiques niveau="2">
+			<pa></pa>
+			<cc></cc>
+			<ec></ec>
+			
+			<normal>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</normal>
+			
+			<critique>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		
+		<caracteristiques niveau="3">
+			<pa></pa>
+			<cc></cc>
+			<ec></ec>
+			
+			<normal>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</normal>
+			
+			<critique>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		
+		<caracteristiques niveau="4">
+			<pa></pa>
+			<cc></cc>
+			<ec></ec>
+			
+			<normal>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</normal>
+			
+			<critique>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		
+		<caracteristiques niveau="5">
+			<pa></pa>
+			<cc></cc>
+			<ec></ec>
+			
+			<normal>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</normal>
+			
+			<critique>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</critique>
+		</caracteristiques>
+		
+		<caracteristiques niveau="6">
+			<pa></pa>
+			<cc></cc>
+			<ec></ec>
+			
+			<normal>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</normal>
+			
+			<critique>
+				<effets></effets>
+				
+				<degats type="">
+					<min></min>
+					<max></max>
+				</degats>
+			</critique>
+		</caracteristiques>
+	</sort>
+</sorts>

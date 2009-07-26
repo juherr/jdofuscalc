@@ -51,10 +51,12 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.jar.Attributes;
 import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
+import java.util.zip.ZipEntry;
 
 import org.apache.commons.compress.archivers.jar.JarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
@@ -120,51 +122,62 @@ public class Builder
 		
 		try
 		{
-			JarOutputStream jarOutput = new JarOutputStream(new BufferedOutputStream(new FileOutputStream(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "core.jar"))), new Manifest(new FileInputStream(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "META-INF" + File.separator + "MANIFEST.MF"))));
-			byte data[] = new byte[TAILLE_MAX_BUFFER];
-			ArrayList<String> nomsfichiers = this.getListe(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "org"), "org");
-			nomsfichiers.addAll(this.getListe(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "fr"), "fr"));
-			for(String nomfichier : nomsfichiers)
-			{
-				//System.out.println(nomfichier);
-				File fichierAZiper = new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + nomfichier);
-				BufferedInputStream input = new BufferedInputStream(new FileInputStream(fichierAZiper), TAILLE_MAX_BUFFER);
-				if(nomfichier.charAt(0) == File.separatorChar)
-					nomfichier = nomfichier.substring(1, nomfichier.length());
-				JarArchiveEntry entry = new JarArchiveEntry(new ZipArchiveEntry(fichierAZiper, nomfichier));
-				jarOutput.putNextEntry(entry);
-				int count;
-				while((count = input.read(data, 0, TAILLE_MAX_BUFFER)) != -1)
-				{
-					jarOutput.write(data, 0, count);
-				}
-				jarOutput.closeEntry();
-				input.close();
-			}
+			Manifest manifest = new Manifest();
+			manifest.getMainAttributes().putValue("Manifest-Version", "1.0");
+			manifest.getMainAttributes().putValue("Main-Class", "org.JDofusCalc.Main");
+			manifest.getMainAttributes().putValue("Class-Path", "bibliotheques/qtjambi.jar bibliotheques/qtjambi-plateforme.jar bibliotheques/jdom.jar bibliotheques/h2.jar bibliotheques/log4j.jar");
 			
-			jarOutput.close();
+			FileOutputStream fos = new FileOutputStream(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "core.jar"));
+			JarOutputStream jos = new JarOutputStream(fos, manifest);
+			
+			try
+			{
+				byte data[] = new byte[TAILLE_MAX_BUFFER];
+    			ArrayList<String> nomsfichiers = this.getListe(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "org"), "org");
+    			nomsfichiers.addAll(this.getListe(new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + "fr"), "fr"));
+    			for(String nomfichier : nomsfichiers)
+    			{
+    				nomfichier = nomfichier.replace("\\", "/");
+    				//System.out.println(nomfichier);
+    				File fichierAZiper = new File("outils" + File.separator + "jars" + File.separator + "core" + File.separator + nomfichier);
+    				BufferedInputStream input = new BufferedInputStream(new FileInputStream(fichierAZiper), TAILLE_MAX_BUFFER);
+    				if(nomfichier.charAt(0) == File.separatorChar)
+    					nomfichier = nomfichier.substring(1, nomfichier.length());
+    				JarArchiveEntry entry = new JarArchiveEntry(new ZipArchiveEntry(fichierAZiper, nomfichier));
+    				jos.putNextEntry(entry);
+    				int count;
+    				while((count = input.read(data, 0, TAILLE_MAX_BUFFER)) > 0)
+    				{
+    					jos.write(data, 0, count);
+    				}
+    				jos.closeEntry();
+    			}
+			}
+			finally
+			{
+				try
+				{
+					jos.close();
+				}
+				catch(IOException e)
+				{
+					e.printStackTrace();
+				}
+				try
+				{
+					fos.close();
+				}
+				catch(IOException e)
+				{
+					e.printStackTrace();
+				}
+			}			
 		}
 		catch(IOException e)
 		{
 			e.printStackTrace();
 		}
-
-		/*System.exit(0);
 		
-		try
-		{
-			Process processCore = Runtime.getRuntime().exec(CHEMIN_PROJET + "outils\\jars\\core\\build_core.bat", new String[0], new File(CHEMIN_PROJET + "outils\\jars\\core\\"));
-			processCore.getInputStream().close();
-			processCore.waitFor();
-		}
-		catch(IOException e)
-		{
-			e.printStackTrace();
-		}
-		catch(InterruptedException e)
-		{
-			e.printStackTrace();
-		}*/
 		System.out.println("\tcore.jar terminé.");
 		
 		// Lanceur
@@ -225,53 +238,62 @@ public class Builder
 		
 		try
 		{
-			JarOutputStream jarOutput = new JarOutputStream(new BufferedOutputStream(new FileOutputStream(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "JDofusCalc.jar"))), new Manifest(new FileInputStream(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "META-INF" + File.separator + "MANIFEST.MF"))));
-			byte data[] = new byte[TAILLE_MAX_BUFFER];
-			ArrayList<String> nomsfichiers = this.getListe(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "org"), "org");
-			nomsfichiers.addAll(this.getListe(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "fr"), "fr"));
-			for(String nomfichier : nomsfichiers)
-			{
-				//System.out.println(nomfichier);
-				File fichierAZiper = new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + nomfichier);
-				BufferedInputStream input = new BufferedInputStream(new FileInputStream(fichierAZiper), TAILLE_MAX_BUFFER);
-				if(nomfichier.charAt(0) == File.separatorChar)
-					nomfichier = nomfichier.substring(1, nomfichier.length());
-				JarArchiveEntry entry = new JarArchiveEntry(new ZipArchiveEntry(fichierAZiper, nomfichier));
-				jarOutput.putNextEntry(entry);
-				int count;
-				while((count = input.read(data, 0, TAILLE_MAX_BUFFER)) != -1)
-				{
-					jarOutput.write(data, 0, count);
-				}
-				jarOutput.closeEntry();
-				input.close();
-			}
+			Manifest manifest = new Manifest(new FileInputStream(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "META-INF" + File.separator + "MANIFEST.MF")));
+						
+			FileOutputStream fos = new FileOutputStream(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "JDofusCalc.jar"));
+			JarOutputStream jos = new JarOutputStream(fos, manifest);
 			
-			jarOutput.close();
+			try
+			{
+				byte data[] = new byte[TAILLE_MAX_BUFFER];
+				ArrayList<String> nomsfichiers = this.getListe(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "org"), "org");
+				nomsfichiers.addAll(this.getListe(new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + "fr"), "fr"));
+    			for(String nomfichier : nomsfichiers)
+    			{
+    				nomfichier = nomfichier.replace("\\", "/");
+    				//System.out.println(nomfichier);
+    				File fichierAZiper = new File("outils" + File.separator + "jars" + File.separator + "lanceur" + File.separator + nomfichier);
+    				BufferedInputStream input = new BufferedInputStream(new FileInputStream(fichierAZiper), TAILLE_MAX_BUFFER);
+    				if(nomfichier.charAt(0) == File.separatorChar)
+    					nomfichier = nomfichier.substring(1, nomfichier.length());
+    				JarArchiveEntry entry = new JarArchiveEntry(new ZipArchiveEntry(fichierAZiper, nomfichier));
+    				jos.putNextEntry(entry);
+    				int count;
+    				while((count = input.read(data, 0, TAILLE_MAX_BUFFER)) > 0)
+    				{
+    					jos.write(data, 0, count);
+    				}
+    				jos.closeEntry();
+    			}
+			}
+			finally
+			{
+				try
+				{
+					jos.close();
+				}
+				catch(IOException e)
+				{
+					e.printStackTrace();
+				}
+				try
+				{
+					fos.close();
+				}
+				catch(IOException e)
+				{
+					e.printStackTrace();
+				}
+			}			
 		}
 		catch(IOException e)
 		{
 			e.printStackTrace();
 		}
 		
-		/*
-		try
-		{
-			Process processLanceur = Runtime.getRuntime().exec(CHEMIN_PROJET + "outils\\jars\\lanceur\\build_lanceur.bat", new String[0], new File(CHEMIN_PROJET + "outils\\jars\\lanceur\\"));
-			processLanceur.getInputStream().close();
-			processLanceur.waitFor();
-		}
-		catch(IOException e)
-		{
-			e.printStackTrace();
-		}
-		catch(InterruptedException e)
-		{
-			e.printStackTrace();
-		}*/
 		System.out.println("\tJDofusCalc.jar terminé.");
 		
-		System.exit(0);
+		//System.exit(0);
 		
 		System.out.println("Création de l'arbre des dossiers.");
 		
@@ -289,12 +311,14 @@ public class Builder
 			File dossierDonnees = new File(dossier.getPath() + File.separator + NOM_APP + File.separator + "donnees");
 			dossierDonnees.mkdirs();
 		}
+		
+		/*
 		File dossierPatch = new File(dossierVersion.getPath() + File.separator + "patch");
 		dossierPatch.mkdirs();
 		File dossierPatchFichiers = new File(dossierPatch.getPath() + File.separator + "fichiers");
 		dossierPatchFichiers.mkdirs();
 		File dossierPatchScripts = new File(dossierPatch.getPath() + File.separator + "scripts");
-		dossierPatchScripts.mkdirs();
+		dossierPatchScripts.mkdirs();*/
 		
 		//*
 		System.out.println("Copie des fichiers.");
@@ -337,7 +361,7 @@ public class Builder
 				"ALTER TABLE EQUIPEMENTS ALTER COLUMN ID RESTART WITH 1;" +
 				"TRUNCATE TABLE MONTURES;" +
 				"ALTER TABLE MONTURES ALTER COLUMN ID RESTART WITH 1;" +
-				"TRUNCATE TABLE NIVEAUX_SORTS ;");
+				"TRUNCATE TABLE NIVEAUX_SORTS;");
 		bdd.fermeture();
 		File[] fichiersDonnees = new File[] { donneesDofusdatabaseData, donneesSauvegardesData };
 
@@ -362,16 +386,17 @@ public class Builder
 		}
 		
 		// Copie des bibliotheques Qt
-		AFile.copierFichier(new File("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Outils\\APIs\\qtjambi\\qtjambi-win32-4.4.3\\qtjambi-win32-msvc2005-4.4.3_01.jar"), dossierWindows32.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
-		AFile.copierFichier(new File("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Outils\\APIs\\qtjambi\\qtjambi-win64-4.4.3\\qtjambi-win64-4.4.3.jar"), dossierWindows64.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
-		AFile.copierFichier(new File("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Outils\\APIs\\qtjambi\\qtjambi-linux32-4.4.3\\qtjambi-linux32-4.4.3.jar"), dossierLinux32.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
-		AFile.copierFichier(new File("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Outils\\APIs\\qtjambi\\qtjambi-linux64-4.4.3\\qtjambi-linux64-4.4.3.jar"), dossierLinux64.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
-		AFile.copierFichier(new File("C:\\Documents and Settings\\sacha\\My Documents\\Java\\Outils\\APIs\\qtjambi\\qtjambi-macosx-4.4.3\\qtjambi-macosx-4.4.3.jar"), dossierMac.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
+		AFile.copierFichier(new File("F:\\Mes documents\\Java\\Outils\\Bibliothèques\\qt\\qtjambi-win32-msvc2005-4.5.0_01.jar"), dossierWindows32.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
+		AFile.copierFichier(new File("F:\\Mes documents\\Java\\Outils\\Bibliothèques\\qt\\autres plateformes\\qtjambi-win64-msvc2005x64-4.5.0_01.jar"), dossierWindows64.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
+		AFile.copierFichier(new File("F:\\Mes documents\\Java\\Outils\\Bibliothèques\\qt\\autres plateformes\\qtjambi-linux32-gcc-4.5.0_01.jar"), dossierLinux32.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
+		AFile.copierFichier(new File("F:\\Mes documents\\Java\\Outils\\Bibliothèques\\qt\\autres plateformes\\qtjambi-linux64-gcc-4.5.0_01.jar"), dossierLinux64.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
+		AFile.copierFichier(new File("F:\\Mes documents\\Java\\Outils\\Bibliothèques\\qt\\autres plateformes\\qtjambi-macosx-gcc-4.5.0_01.jar"), dossierMac.getPath() + File.separator + NOM_APP + File.separator + "bibliotheques", "qtjambi-plateforme.jar");
 		
 		// Autres
 		AFile.copierFichier(new File("outils" + File.separator + "distributions" + File.separator + "JDofusCalc-32.exe"), dossierWindows32.getPath() + File.separator + NOM_APP, "JDofusCalc.exe");
 		AFile.copierFichier(new File("outils" + File.separator + "distributions" + File.separator + "JDofusCalc-32.exe"), dossierWindows64.getPath() + File.separator + NOM_APP, "JDofusCalc.exe");
 		
+		/*
 		// Patch
 		HashMap<File, String> fichiersPatch = new HashMap<File, String>();
 		fichiersPatch.put(fichierLanceur, "");
@@ -390,9 +415,11 @@ public class Builder
 		{
 			new File(dossierPatchFichiers + File.separator + entry.getValue()).mkdirs();
 			AFile.copierFichier(entry.getKey(), dossierPatchScripts + File.separator + entry.getValue());
-		}
+		}*/
 		
 		//*/
+		
+		//System.exit(0);
 		
 		//*
 		System.out.println("Compression des dossiers.");
@@ -450,7 +477,7 @@ public class Builder
 		HashMap<String, File> dossiersToZip = new HashMap<String, File>();
 		dossiersToZip.put("JDofusCalc-" + VERSION + "-win32.zip", dossierWindows32);
 		dossiersToZip.put("JDofusCalc-" + VERSION + "-win64.zip", dossierWindows64);
-		dossiersToZip.put("patch-" + PREVIOUS_VERSION + "_" + VERSION + "-all.zip", dossierPatch);
+		//dossiersToZip.put("patch-" + PREVIOUS_VERSION + "_" + VERSION + "-all.zip", dossierPatch);
 		for(Entry<String, File> dossierToZip : dossiersToZip.entrySet())
 		{
 			try

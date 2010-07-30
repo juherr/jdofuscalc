@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.5.0"/>
-	<classpathentry kind="lib" path="F:/Mes documents/Java/Mes projets/JDofusCalc/bibliotheques/compress.jar"/>
-	<classpathentry kind="lib" path="F:/Mes documents/Java/Mes projets/JDofusCalc/bibliotheques/h2.jar"/>
-	<classpathentry kind="lib" path="F:/Mes documents/Java/Mes projets/JDofusCalc/bibliotheques/jdom.jar"/>
-	<classpathentry kind="lib" path="F:/Mes documents/Java/Mes projets/JDofusCalc/bibliotheques/log4j.jar"/>
-	<classpathentry kind="lib" path="F:/Mes documents/Java/Mes projets/JDofusCalc/bibliotheques/qtjambi.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="file:/F:/Mes documents/Java/Outils/Bibliothèques/Graphiques/qtjambi-win32-lgpl-4.5.0_01/doc/html/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="F:/Mes documents/Java/Mes projets/JDofusCalc/bibliotheques/qtjambi-plateforme.jar"/>
 	<classpathentry kind="src" path="Generated JUIC files"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="bibliotheques/compress.jar"/>
+	<classpathentry kind="lib" path="bibliotheques/h2.jar"/>
+	<classpathentry kind="lib" path="bibliotheques/jdom.jar"/>
+	<classpathentry kind="lib" path="bibliotheques/log4j.jar"/>
+	<classpathentry kind="lib" path="bibliotheques/qtjambi.jar"/>
+	<classpathentry kind="lib" path="bibliotheques/qtjambi-plateforme.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
